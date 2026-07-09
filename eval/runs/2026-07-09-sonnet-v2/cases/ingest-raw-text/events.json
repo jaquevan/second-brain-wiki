@@ -1,0 +1,724 @@
+[
+  {
+    "type": "system",
+    "subtype": "hook_started",
+    "timestamp": "2026-07-09T15:57:44.101Z"
+  },
+  {
+    "type": "system",
+    "subtype": "hook_response",
+    "timestamp": "2026-07-09T15:57:44.102Z"
+  },
+  {
+    "type": "system",
+    "subtype": "init",
+    "timestamp": "2026-07-09T15:57:44.122Z",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.869Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.869Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.872Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.872Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.872Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.873Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.873Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:45.873Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.266Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.266Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.267Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.267Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.267Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.268Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.269Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.271Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.662Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.662Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.662Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.662Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.663Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.663Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.663Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:46.663Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.086Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.091Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.091Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.093Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.094Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.098Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:47.103Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:57:47.107Z",
+    "_msg_id": "msg_vrtx_0125MHrKFE6qFcVMYjRjiu1G"
+  },
+  {
+    "type": "assistant",
+    "text": "I'll ingest this into your wiki by first reading the config to find the wiki directory.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:57:47.542Z",
+    "_msg_id": "msg_vrtx_0125MHrKFE6qFcVMYjRjiu1G"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_014sGcX4yddPguGMB7gV68VZ",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v2/cases/ingest-raw-text/.claude/skills/second-brain-wiki/references/config.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:57:49.988Z",
+    "_msg_id": "msg_vrtx_0125MHrKFE6qFcVMYjRjiu1G"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_014sGcX4yddPguGMB7gV68VZ",
+    "tool_name": "Read",
+    "content": "1\t# Second Brain Wiki Configuration\n2\t\n3\tThis file configures the skill for Evan's environment. Edit paths and\n4\tprojects as your work evolves.\n5\t\n6\t---\n7\t\n8\t## Paths\n9\t\n10\t| Path | Value | Description |\n11\t|------|-------|-------------|\n12\t| Wiki directory | `~/second-brain/wiki/` | Where wiki pages live |\n13\t| Sources directory | `~/second-brain/sources/` | Raw source files stored here |\n14\t| Inbox directory | `~/Desktop/Second Brain Inbox/` | Drop files here for processing |\n15\t\n16\t---\n17\t\n18\t## Active Projects\n19\t\n20\tThese are your current projects and areas of focus. The skill uses these\n21\tto find connections when ingesting new content.\n22\t\n23\t- **evaluator-super-agent** \u2014 automated prototype quality assessment using persona-driven walkthroughs, 7-dimension rubric scoring, actor/evaluator separation\n24\t- **prototype-creator** \u2014 generates clickable prototypes from RFEs, tiered AC classification, Playwright automation\n25\t- **agent-eval-harness** \u2014 framework for evaluating AI skill quality, eval.yaml configs, judges, scoring pipelines\n26\t- **ai-sdlc-pipeline** \u2014 three-phase pipeline: RFE Creator (WHAT) \u2192 Prototype Creator (SHOW) \u2192 Strat Creator (HOW)\n27\t- **my-cursor-claw** \u2014 personal workspace with 20+ skills, MCP connections, notetaking, automations\n28\t- **decision-kit** \u2014 Decision Driven Development toolkit, /strategize, /decide, /journal\n29\t- **automated-usability-testing** \u2014 simulated usability testing tool, persona YAML files, evaluate-flow protocol\n30\t- **archie** \u2014 UX research agent for the RHOAIUX team\n31\t- **rhoai-prototypes** \u2014 RHOAI prototype collection for evaluation\n32\t\n33\t---\n34\t\n35\t## Calendar Integration\n36\t\n37\t| Setting | Value |\n38\t|---------|-------|\n39\t| Calendar name | `primary` |\n40\t| Auto-ingest meetings | `true` |\n41\t| Minimum meeting duration | `15 min` |\n42\t| Require notes/transcript | `true` |\n43\t| Skip recurring without notes | `true` |\n44\t\n45\tEvents that qualify for auto-ingestion:\n46\t- Have attached meeting notes or a description with substance (not just \"Weekly sync\")\n47\t- Have a linked Google Doc (agenda, transcript, action items)\n48\t- Duration is 15+ minutes\n49\t- Are not recurring meetings that had no notes added\n50\t\n51\t---\n52\t\n53\t## MCP Integrations\n54\t\n55\t| Integration | MCP Server | Used for |\n56\t|-------------|-----------|----------|\n57\t| Google Docs | `user-google-workspace` | Extracting doc content |\n58\t| Google Calendar | `user-google-workspace` | Meeting ingestion |\n59\t| Slack | `project-0-my-cursor-claw-slack` | Channel message ingestion |\n60\t\n61\t---\n62\t\n63\t## Cross-Link Priority\n64\t\n65\tWhen multiple connections exist, prioritize these categories (from the\n66\twiki index):\n67\t\n68\t1. **Red Hat AI-SDLC** \u2014 pipeline components, RFE/prototype/strat flow\n69\t2. **Evaluation & Quality** \u2014 rubrics, heuristics, eval harness\n70\t3. **Tools & Skills** \u2014 decision kit, cursor claw, skill overlays\n71\t4. **Meetings** \u2014 meeting notes with action items and decisions\n72\t5. **Standups** \u2014 sprint progress and blockers\n73\t6. **Session Logs** \u2014 what was built and shipped\n74\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:57:50.000Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01LUEKa8Gi9pTsuqDtJKSiCB",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v2/cases/ingest-raw-text/.claude/skills/second-brain-wiki/references/wiki-page-template.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:57:50.446Z",
+    "_msg_id": "msg_vrtx_0125MHrKFE6qFcVMYjRjiu1G"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01LUEKa8Gi9pTsuqDtJKSiCB",
+    "tool_name": "Read",
+    "content": "1\t# Wiki Page Template\n2\t\n3\tUse this template when creating new wiki pages. Copy the structure,\n4\tfill in the bracketed fields.\n5\t\n6\t---\n7\t\n8\t## Template\n9\t\n10\t```markdown\n11\t# <Page Title>\n12\t\n13\t<One-sentence summary of what this page covers.>\n14\t\n15\t## Key Points\n16\t\n17\t- <Bullet point 1: a concrete fact, concept, or takeaway>\n18\t- <Bullet point 2>\n19\t- <Bullet point 3>\n20\t- <Additional bullets as needed, max 10>\n21\t\n22\t## Related\n23\t\n24\t- [<Related Page Title>](<related-slug>.md) \u2014 <one-line reason for connection>\n25\t- [<Another Related Page>](<slug>.md) \u2014 <connection reason>\n26\t\n27\t## Sources\n28\t\n29\t- <path/to/source/file or URL where this came from>\n30\t- Ingested: <YYYY-MM-DD>\n31\t```\n32\t\n33\t---\n34\t\n35\t## Good Example\n36\t\n37\t```markdown\n38\t# Retrieval Augmented Generation\n39\t\n40\tTechnique that grounds LLM responses in retrieved documents rather than\n41\trelying solely on training data.\n42\t\n43\t## Key Points\n44\t\n45\t- Combines a retriever (vector search) with a generator (LLM)\n46\t- Reduces hallucination by providing source documents as context\n47\t- Trade-off: retrieval quality limits generation quality\n48\t- Common stack: embeddings \u2192 vector DB \u2192 reranker \u2192 LLM prompt\n49\t- Works best when source corpus is well-chunked and up-to-date\n50\t\n51\t## Related\n52\t\n53\t- [Vector Databases](vector-databases.md) \u2014 the retrieval layer in RAG pipelines\n54\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 uses embedding similarity for judge calibration\n55\t\n56\t## Sources\n57\t\n58\t- ~/second-brain/sources/what-is-rag.md\n59\t- Ingested: 2026-06-10\n60\t```\n61\t\n62\t---\n63\t\n64\t## Bad Example\n65\t\n66\t```markdown\n67\t# RAG\n68\t\n69\tRetrieval Augmented Generation (RAG) is a technique in artificial intelligence\n70\tthat combines information retrieval with text generation. It was first proposed\n71\tby Lewis et al. in 2020. The basic idea is that instead of relying solely on\n72\twhat a language model learned during training, you can augment it with relevant\n73\tdocuments retrieved at inference time.\n74\t\n75\tThis approach has several advantages. First, it reduces hallucination because\n76\tthe model can reference actual documents. Second, it allows the model to access\n77\tup-to-date information that wasn't in its training data. Third, it provides\n78\ttransparency because you can trace responses back to source documents.\n79\t\n80\tThere are several implementations of RAG available today...\n81\t```\n82\t\n83\t**Why it's bad:**\n84\t- Reads like a Wikipedia article, not a wiki node\n85\t- No bullet summaries (walls of prose)\n86\t- No Related section (isolated page, no connections)\n87\t- No Sources section (where did this come from?)\n88\t- Title is an acronym without expansion\n89\t- Contains filler (\"There are several...\" \"This approach has...\")\n90\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:57:50.452Z"
+  },
+  {
+    "type": "assistant",
+    "text": "Now let me scan the existing wiki pages to check for duplicates and find cross-linking opportunities.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:57:52.637Z",
+    "_msg_id": "msg_vrtx_013aJqJ7fvsVwFP7MXmnHrGX"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_01U9sXsENTrdNtRZZCPvQ16t",
+        "input": {
+          "command": "ls ~/second-brain/wiki/ 2>/dev/null && echo \"---SEPARATOR---\" && head -10 ~/second-brain/wiki/*.md 2>/dev/null | head -200",
+          "description": "List wiki files and read first 10 lines of each"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:57:53.594Z",
+    "_msg_id": "msg_vrtx_013aJqJ7fvsVwFP7MXmnHrGX"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01U9sXsENTrdNtRZZCPvQ16t",
+    "tool_name": "Bash",
+    "content": "agent-eval-harness.md\nai-first-sync-2026-06-25.md\nai-sdlc-pipeline.md\nandy-evan-2026-06-22.md\nandy-evan-2026-06-29.md\nandy-evan-eval-review-2026-06-16.md\nansible-ai-helpers-strategy-2026-06-17.md\ncursor-work-2026-06-16.md\ndecision-kit.md\nevaluator-super-agent.md\nindex.md\nlog.md\nmidpoint-checkin-2026-06-30.md\nmy-cursor-claw.md\nnielsens-heuristics-jagged-edge.md\noutcome-tiger-team.md\nprompt-engineering-best-practices.md\nprototype-creator-demo-may14.md\nprototype-creator.md\nredhat-ai-first-lessons.md\nretrieval-augmented-generation.md\nrfe-creator.md\nrh-ai-first-ux-2026-06-18.md\nrh-ai-first-ux-2026-06-25.md\nsession-log-2026-06-15.md\nsession-log-2026-06-16.md\nskill-overlays.md\nstandup-2026-06-22.md\nstandup-2026-06-29.md\nux-quality-rubric.md\nvector-databases.md\nvector-similarity-search.md\nweekly-design-sync-2026-07-01.md\nwg-uxd-efficiency-2026-06-29.md\nzack-evan-2026-06-24.md\n---SEPARATOR---\n==> /Users/ejaquez/second-brain/wiki/agent-eval-harness.md <==\n# Agent Eval Harness\n\nA framework for evaluating AI agent skill quality through automated testing, judge scoring, and iterative optimization.\n\n## How It Works\n\n1. **eval.yaml** \u2014 defines execution mode, dataset schema, output descriptions, judges, models, and thresholds\n2. **Dataset** \u2014 test cases with realistic inputs for the skill\n3. **Judges** \u2014 automated scorers that rate skill outputs against criteria\n4. **Run** \u2014 executes the skill against test cases, scores with judges, reports results\n\n==> /Users/ejaquez/second-brain/wiki/ai-first-sync-2026-06-25.md <==\n# AI-First Sync -- June 25, 2026\n\nRed Hat AI UXD AI-First Sync. Evan's prototype evaluator presentation and 3.6 branch strategy.\n\n## Key Discussion Points\n\n- **3.6 branch available:** N10 URL auto-updates. Aim to adopt real codebase by mid 3.6/3.7 cycle. PRs still target 3.5, easily migratable.\n- **Prototype evaluator demo:** Evan presented the evaluator architecture to the full team. Extracts Jira data (RFEs, MRs, acceptance criteria), classifies into evaluation tiers, inspects MR deltas for missing UI elements and accessibility gaps.\n- **Playwright integration:** Automated usability testing via user journeys generated from acceptance criteria. System verifies presence of necessary controls. MR data provides \"colleague hints\" to personas (affects scores).\n- **Iteration and flagging:** System attempts auto-fixes for flagged issues; subjective items set aside for human review. Designers/PMs can override flags.\n\n==> /Users/ejaquez/second-brain/wiki/ai-sdlc-pipeline.md <==\n# AI-SDLC Pipeline\n\nRed Hat's AI-assisted Software Development Life Cycle \u2014 a three-phase pipeline where each phase has its own \"creator\" tool.\n\n## The Three Phases\n\n| Phase | Project | Role | Repo |\n|---|---|---|---|\n| Phase 1: The WHAT | [RFE Creator](rfe-creator.md) | Creates and assesses RFEs in Jira | opendatahub-io/rfe-creator |\n| Phase 2: The SHOW | [Prototype Creator](prototype-creator.md) | Makes the experience tangible through clickable prototypes | andybraren/prototype-creator |\n\n==> /Users/ejaquez/second-brain/wiki/andy-evan-2026-06-22.md <==\n# Andy/Evan Meeting -- June 22, 2026\n\n1:1 review of evaluation system progress and prototype creator integration strategy.\n\n## Key Discussion Points\n\n- **Evaluation harness progress:** Iteration history now tracks original and final reports with summaries of fixes. Usability scores improved from 11 to 19 after agent corrected blank table values.\n- **Flagging system:** Complex failures flagged for human review (console errors, browser permissions). Fixable items auto-corrected after multiple flagged iterations.\n- **Prototype Creator integration:** Andy suggested spinning up a sub-agent running Prototype Creator when acceptance criteria fails. Evan raised cost concerns, proposing invoking the skill only for complex issues while handling minor fixes internally.\n- **Style guidelines:** Consistency checker not yet merged into Prototype Creator, but planned for maintaining Red Hat style standards during automated evaluations.\n\n==> /Users/ejaquez/second-brain/wiki/andy-evan-2026-06-29.md <==\n# Andy/Evan Meeting -- June 29, 2026\n\n1:1 covering prototype evaluator progress, reporting infrastructure, repository strategy, and future directions.\n\n## Key Discussion Points\n\n- **Persona walkthroughs separated:** Fixed overlap issue. Developing \"Findings\" tab documenting issues and resolutions. Implementing \"Auto-fix\" vs \"Report-only\" modes to manage regressions.\n- **Data discrepancies:** Patient scores fluctuating without clear explanation. Investigating inconsistencies.\n- **Jira entity confusion:** Clarified RF (Product Managers create) \u2192 Strat relationship. Prototype Creator should ideally link to RF (upstream). \"UI Direction\" section in Strat documents remains useful for prototyping.\n- **Token optimization:** Configure AI to extract only necessary sections (e.g., \"UI Direction\") rather than ingesting entire Strat documents. Need to confirm if it's a hardcoded heading.\n\n==> /Users/ejaquez/second-brain/wiki/andy-evan-eval-review-2026-06-16.md <==\n# Andy/Evan Evaluation Review \u2014 June 16, 2026\n\nMeeting with Andy Braren reviewing the prototype evaluation system. Three key decisions shaped the direction of the evaluator super agent.\n\n## Key Decisions\n\n- **Outcomes over Strategic Goals** \u2014 The evaluation framework will use Jira Outcomes as primary grounding criteria, not Strategic Goals. Outcomes contain reliable user journey definitions; Strats are inconsistently written and would confuse the agent.\n- **Super evaluator architecture** \u2014 Consolidate fragmented individual skills (usability, consistency, desirability) into a single centralized evaluation agent. One Playwright pass, shared screenshots, reduced token usage.\n- **Overlay architecture** \u2014 98% generic evaluator + 2% product-specific overlay. Follows the pattern from Global Engineering's [wg-agentic-sdlc skill-overlays best practice](https://gitlab.cee.redhat.com/global-engineering/wg-agentic-sdlc/-/blob/main/best-practices/skill-overlays.md).\n\n\n==> /Users/ejaquez/second-brain/wiki/ansible-ai-helpers-strategy-2026-06-17.md <==\n# Ansible AI Helpers Strategy \u2014 2026-06-17\n\nStrategy session on integrating the UXD AI Helpers repo with Ansible's Carbonite harness. First major external consumer of the centralized skill distribution model.\n\n## Attendees\n\nJeremy Perry, Mike Franke, Nicole Thoen, Jeff Puzzo, Cate Ferman, Leslie Hinson, Andy Braren, Melissa Grimes (invited: Taufique Rahman)\n\n## Context\n\n\n==> /Users/ejaquez/second-brain/wiki/cursor-work-2026-06-16.md <==\n# Cursor Agent Work \u2014 June 16, 2026\n\nA daily record of all agent work done across 4 Cursor sessions on this date. Focused on productivity infrastructure: skills that make other skills better, zero-friction workflows, and manager-oriented accountability.\n\n## Sessions\n\n### 1. Trend-Scan Research Skill\nCreated `~/.cursor/skills/trend-scan/` \u2014 scans Reddit, HN, Twitter/X, Stack Overflow for trends and sentiment. Outputs an interactive Canvas. Use cases: researching before building skills, evaluating agent frameworks, investment research.\n\n### 2. Batch Skill Creation\n\n==> /Users/ejaquez/second-brain/wiki/decision-kit.md <==\n# Decision Kit\n\nA toolkit for Decision Driven Development. AI does the busywork around your decisions \u2014 you make the calls.\n\n## Core Concept\n\nYou bring a situation. Decision Kit surfaces 5\u20137 decisions hiding inside it, stack-ranked from most critical to least. For each one, it gathers research, builds options, renders visual previews, lays out tradeoffs as side-by-side comparisons. Then it stops and waits for you to decide. Every decision becomes a browsable HTML artifact in `.decisions/`.\n\n## Two Types of Skills\n\n\n==> /Users/ejaquez/second-brain/wiki/evaluator-super-agent.md <==\n# Evaluator Super Agent\n\nEvan's primary assignment: build an evaluation agent that automates prototype quality assessment within the [Prototype Creator](prototype-creator.md) pipeline.\n\n**Status: Shipped.** The evaluator is a 3-phase skill pipeline on branch `evan/prototype-evaluate` at [andybraren/prototype-creator](https://github.com/andybraren/prototype-creator). It has evaluated 18+ STRATs against Jira acceptance criteria with Playwright persona walkthroughs.\n\n## What It Does (current)\n\n| Capability | Source | Status |\n|---|---|---|\n\n==> /Users/ejaquez/second-brain/wiki/index.md <==\n# Wiki Index\n\nA catalog of all wiki pages, organized by category.\n\n## Red Hat AI-SDLC\n\n- [Red Hat AI-First Lessons](redhat-ai-first-lessons.md) \u2014 Jeremy Eder's presentation on agentic SDLC, issue-to-PR bots, eval infrastructure, AgentReady, and culture shifts\n- [Outcome Tiger Team](outcome-tiger-team.md) \u2014 proposal to formalize outcomes as the upstream step feeding the entire pipeline\n- [AI-SDLC Pipeline](ai-sdlc-pipeline.md) \u2014 the three-phase pipeline (WHAT \u2192 SHOW \u2192 HOW)\n- [RFE Creator](rfe-creator.md) \u2014 Phase 1: creates and assesses RFEs in Jira\n\n==> /Users/ejaquez/second-brain/wiki/log.md <==\n# Change Log\n\nA chronological record of all wiki operations.\n\n## 2026-07-09 \u2014 Duplicate detected: Vector Similarity Search\n- No new page created \u2014 content already fully covered by vector-similarity-search.md\n- All 4 key points in the new source were already present in the existing page (with more detail)\n- No updates needed; existing page is current and complete\n\n## 2026-07-09 \u2014 Ingested: Prompt Engineering Best Practices\n\n==> /Users/ejaquez/second-brain/wiki/midpoint-checkin-2026-06-30.md <==\n# Midpoint Check-in with Zack -- June 30, 2026\n\nHalfway internship check-in focused on growth, energy management, strengths/opportunities feedback, and career direction. Not a work-progress meeting.\n\n## Zack's Feedback: Strengths\n\n- Evan's background is \"very unique and very well suited\" for this kind of AI + research + design work. Zack had to rewrite the entire job description: \"we don't need a research intern. We need an intern who can come in and help us figure out what the next model of working with AI looks like for research.\"\n- The prototype evaluator work is \"pioneering work\" that encapsulates research into an AI framework inside the ADLC. These three things (research, AI skill, SDLC integration) rarely come together in one actual capability.\n- Evan handles ambiguous/murky situations well. \"Not being afraid to generate clarity is a really really important skill.\" Most people assume they should already know the answer, but often nobody knows.\n- Engagement with stakeholders is strong. Zack described it as \"collaborative curiosity\" which resonates with Red Hat culture.\n\n==> /Users/ejaquez/second-brain/wiki/my-cursor-claw.md <==\n# My Cursor Claw\n\nPersonal skill development workspace built during the Day of Learning Agent Skills Workshop (2026-06-05). Contains 20+ custom Cursor skills, 5 MCP server connections, and automated daily review infrastructure.\n\n## MCP Connections\n\n- **Atlassian** \u2014 Jira issues, JQL search, transitions, Confluence\n- **Dataverse** \u2014 SQL queries against Red Hat data products\n- **PatternFly Docs** \u2014 component documentation and design tokens\n- **Google Workspace (gws)** \u2014 Docs, Slides, Drive, Calendar, Gmail\n\n==> /Users/ejaquez/second-brain/wiki/nielsens-heuristics-jagged-edge.md <==\n# Nielsen's Heuristics & The Jagged Edge\n\nFirst hands-on internship assignment: apply Nielsen Norman's 10 Usability Heuristics to Kubernetes-style interfaces across multiple AI tools and compare their analysis quality.\n\n## The Jagged Edge\n\nResearch from Harvard Business School shows AI capabilities aren't uniform \u2014 models are very good at some tasks and surprisingly bad at others. The boundary between \"good\" and \"bad\" isn't obvious. This is the \"jagged technological frontier.\"\n\n## What Was Tested\n\n\n==> /Users/ejaquez/second-brain/wiki/outcome-tiger-team.md <==\n# Outcome Tiger Team\n\nProposal by Andy Braren to form a cross-functional tiger team focused on the critical step *before* the [AI-SDLC Pipeline](ai-sdlc-pipeline.md): creating, prioritizing, and visualizing **outcomes** \u2014 the directional goals that determine which features get prioritized and why.\n\nRepo: [andybraren/outcome-creator](https://github.com/andybraren/outcome-creator)\nMiro: [Concept board](https://miro.com/app/board/uXjVHacm2cA=/)\n\n## The Problem\n\nToday many RFEs and STRATs are never connected to higher-level outcomes. When they are, priorities come from informal synthesis across scattered sources (customer escalations, SA calls, analyst reports, UX research, POCs, partner input, upstream signals). The rationale behind outcomes is rarely captured in a reusable way. An Agentic SDLC amplifies these gaps \u2014 automating feature delivery without clear outcomes just ships a \"myopic grab bag\" faster.\n\n==> /Users/ejaquez/second-brain/wiki/prompt-engineering-best-practices.md <==\n# Prompt Engineering Best Practices\n\nCore techniques for writing effective LLM prompts that produce consistent, high-quality outputs.\n\n## Key Points\n\n- **Specify output format explicitly** \u2014 tell the model what structure you expect (JSON, bullets, table, prose) rather than inferring it",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:57:54.046Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.164Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.489Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.489Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.489Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.490Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.491Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.500Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.500Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.500Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.918Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.921Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.926Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:55.926Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:57:55.927Z",
+    "_msg_id": "msg_vrtx_015gFN4ky61MbHogEEZezkDw"
+  },
+  {
+    "type": "assistant",
+    "text": "There's already a `prompt-engineering-best-practices.md` page. Let me read it fully to assess overlap.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:57:56.311Z",
+    "_msg_id": "msg_vrtx_015gFN4ky61MbHogEEZezkDw"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01EfVtarbnd99CML5PuPyrdB",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/prompt-engineering-best-practices.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:57:56.736Z",
+    "_msg_id": "msg_vrtx_015gFN4ky61MbHogEEZezkDw"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01EfVtarbnd99CML5PuPyrdB",
+    "tool_name": "Read",
+    "content": "1\t# Prompt Engineering Best Practices\n2\t\n3\tCore techniques for writing effective LLM prompts that produce consistent, high-quality outputs.\n4\t\n5\t## Key Points\n6\t\n7\t- **Specify output format explicitly** \u2014 tell the model what structure you expect (JSON, bullets, table, prose) rather than inferring it\n8\t- **Provide examples of good and bad output** \u2014 few-shot examples anchor the model more reliably than descriptions alone\n9\t- **Use chain-of-thought for complex reasoning** \u2014 instruct the model to reason step-by-step before answering; improves accuracy on multi-hop problems\n10\t- **Break multi-step tasks into sequential prompts** \u2014 a pipeline of focused prompts outperforms one sprawling mega-prompt\n11\t- **Include constraints and boundaries explicitly** \u2014 state what the model should NOT do as clearly as what it should\n12\t\n13\t## Related\n14\t\n15\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 judge prompts are the core of the eval harness; format specs and CoT directly improve scoring accuracy\n16\t- [Skill Overlays](skill-overlays.md) \u2014 overlays are structured prompts with explicit constraints and project-specific examples baked in\n17\t- [Evaluator Super Agent](evaluator-super-agent.md) \u2014 each evaluation phase uses format-controlled output and sequential prompting across phases\n18\t\n19\t## Sources\n20\t\n21\t- ~/second-brain/sources/2026-06-15-prompt-engineering-best-practices.md\n22\t- Ingested: 2026-07-09\n23\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:57:56.741Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01FrrZHqP2hR1ibnaZJRQrqS",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/log.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:57:57.085Z",
+    "_msg_id": "msg_vrtx_015gFN4ky61MbHogEEZezkDw"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01FrrZHqP2hR1ibnaZJRQrqS",
+    "tool_name": "Read",
+    "content": "1\t# Change Log\n2\t\n3\tA chronological record of all wiki operations.\n4\t\n5\t## 2026-07-09 \u2014 Duplicate detected: Vector Similarity Search\n6\t- No new page created \u2014 content already fully covered by vector-similarity-search.md\n7\t- All 4 key points in the new source were already present in the existing page (with more detail)\n8\t- No updates needed; existing page is current and complete\n9\t\n10\t## 2026-07-09 \u2014 Ingested: Prompt Engineering Best Practices\n11\t- Created: prompt-engineering-best-practices.md \u2014 Core techniques: format specs, few-shot examples, chain-of-thought, sequential prompts, explicit constraints\n12\t- Cross-linked with: agent-eval-harness.md, skill-overlays.md, evaluator-super-agent.md\n13\t- Category: Machine Learning & AI\n14\t\n15\t## 2026-06-30 -- Ingested: Midpoint Check-in with Zack\n16\t- Created: midpoint-checkin-2026-06-30.md -- Halfway internship review: strengths (pioneering work, collaborative curiosity, handling ambiguity), opportunities (bigger picture thinking, report as product), energy management framework, career direction\n17\t- Cross-linked with: evaluator-super-agent.md, prototype-creator.md, ai-sdlc-pipeline.md\n18\t- Category: Meetings\n19\t- Note: Single-mic Gemini transcript, speakers reconstructed from context\n20\t\n21\t## 2026-06-29 -- Batch Ingestion: June 22-29 meetings + skill overlays\n22\t\n23\t**8 new wiki pages created:**\n24\t\n25\t1. **skill-overlays.md** -- LLM-generated project-specific context files (Carl Trieloff's team). Concept from Apr 2026, already showing accuracy gains.\n26\t   - Cross-linked with: evaluator-super-agent.md, agent-eval-harness.md, my-cursor-claw.md, ai-sdlc-pipeline.md\n27\t   - Category: Tools & Skills\n28\t\n29\t2. **andy-evan-2026-06-22.md** -- 1:1 review: eval scores improved 11\u219219, flagging system, Prototype Creator integration cost strategy ($25-30/run)\n30\t   - Cross-linked with: evaluator-super-agent.md, prototype-creator.md, ux-quality-rubric.md, andy-evan-eval-review-2026-06-16.md\n31\t   - Category: Meetings\n32\t\n33\t3. **standup-2026-06-22.md** -- Sprint capacity adjustments, customer engagement strategy, Archie CLI update\n34\t   - Cross-linked with: prototype-creator.md, outcome-tiger-team.md, evaluator-super-agent.md\n35\t   - Category: Standups (new)\n36\t\n37\t4. **zack-evan-2026-06-24.md** -- Jira standardization, story points (Fibonacci), skill architecture (11M token context limit hit)\n38\t   - Cross-linked with: prototype-creator.md, evaluator-super-agent.md, ai-sdlc-pipeline.md, rfe-creator.md\n39\t   - Category: Meetings\n40\t\n41\t5. **ai-first-sync-2026-06-25.md** -- Evan's prototype evaluator presentation to full team, 3.6 branch, readiness check concept\n42\t   - Cross-linked with: evaluator-super-agent.md, prototype-creator.md, andy-evan-2026-06-22.md, ansible-ai-helpers-strategy.md\n43\t   - Category: Meetings\n44\t\n45\t6. **rh-ai-first-ux-2026-06-25.md** -- Outcome Creator JTBD integration, QE transition, testing fragmentation, unified testing proposal\n46\t   - Cross-linked with: outcome-tiger-team.md, evaluator-super-agent.md, ai-sdlc-pipeline.md, prototype-creator.md, nielsens-heuristics.md\n47\t   - Category: Meetings\n48\t\n49\t7. **standup-2026-06-29.md** -- Usability testing RFC approved, UX debt prioritization for 3.5, research tooling updates\n50\t   - Cross-linked with: evaluator-super-agent.md, nielsens-heuristics.md, prototype-creator.md\n51\t   - Category: Standups\n52\t\n53\t8. **wg-uxd-efficiency-2026-06-29.md** -- AI helpers repo strategy for Ansible, Archie\u2192UFD rebranding, productivity skills repo, AI cost management\n54\t   - Cross-linked with: ansible-ai-helpers-strategy.md, my-cursor-claw.md, agent-eval-harness.md\n55\t   - Category: Meetings\n56\t\n57\t**Existing pages updated with cross-links:** evaluator-super-agent.md, prototype-creator.md, ai-sdlc-pipeline.md, my-cursor-claw.md, agent-eval-harness.md, ansible-ai-helpers-strategy.md, outcome-tiger-team.md, nielsens-heuristics-jagged-edge.md, andy-evan-eval-review-2026-06-16.md\n58\t\n59\t**Index updated:** New Standups category added. 8 entries added across Meetings, Standups, and Tools & Skills.\n60\t\n61\t9. **andy-evan-2026-06-29.md** -- evaluator progress, report UX redesign, UXD PC7 cluster hosting, sub-skill structure, Leaderboard of Pain concept, internship midpoint prep\n62\t   - Cross-linked with: evaluator-super-agent.md, prototype-creator.md, andy-evan-2026-06-22.md, ai-first-sync-2026-06-25.md, outcome-tiger-team.md\n63\t   - Category: Meetings\n64\t\n65\t**Skipped:** 2 empty Evan/Zack meetings from June 23 (Gemini failed to capture). 1 Agentic AI Eng Tools Demos meeting (engineering-focused, tangential).\n66\t\n67\t## 2026-06-22 \u2014 Ingested: RH AI-First UX Meeting (June 18)\n68\t- Created: rh-ai-first-ux-2026-06-18.md \u2014 Weekly team meeting: Fable AI impressions, Jobs-to-be-Done PR passing review, GitLab pages routing fix, Evan's prototype-evaluate demo, Outcome Creator project plan, Jira SDLC migration, designer enablement planned\n69\t- Cross-linked with: prototype-creator.md, evaluator-super-agent.md, outcome-tiger-team.md, ai-sdlc-pipeline.md\n70\t- Category: Meetings\n71\t\n72\t## 2026-06-22 \u2014 Ingested: Ansible AI Helpers Strategy Meeting (June 17)\n73\t\n74\t- Created: ansible-ai-helpers-strategy-2026-06-17.md \u2014 Strategy session on integrating UXD AI Helpers with Ansible's Carbonite harness; heuristic eval selected as pilot, centralized repo via MRs, June 30 leadership presentation\n75\t- Cross-linked with: ai-sdlc-pipeline.md, agent-eval-harness.md, prototype-creator.md, nielsens-heuristics-jagged-edge.md, evaluator-super-agent.md\n76\t- Category: Meetings\n77\t\n78\t## 2026-06-16 \u2014 Updated: My Cursor Claw (Week 4 growth)\n79\t\n80\t**Updated:** my-cursor-claw.md \u2014 expanded from 12 to 20+ skills, added 5th MCP (Slack), added Automated Daily Review System section documenting the 3-checkpoint launchd infrastructure (morning/midday/EOD with Apple Reminders, progress doc auto-update).\n81\t\n82\t**New skills documented:** second-brain-ingest, work-context, meeting-prep, standup-writer, session-log, sprint-manager, critique, doc-sync, humanize-text, superpowers, skill-guide.\n83\t\n84\t**Index updated:** My Cursor Claw entry updated to reflect current scope.\n85\t\n86\t## 2026-06-09 \u2014 Initial wiki seeding\n87\t\n88\t**Sources ingested:**\n89\t- sources/2026-06-09-prototype-creator-overview.html\n90\t- sources/2026-06-03-nielsen-agents-task1.html\n91\t- sources/2026-06-04-agent-eval-harness-overview.html\n92\t- sources/2026-06-05-skill-eval-cheat-sheet.html\n93\t- Andy/Evan meeting notes (2026-06-08, Google Drive)\n94\t- jnemargut/decision-kit README (GitHub)\n95\t- opendatahub-io/rfe-creator README (GitHub)\n96\t- andybraren/prototype-creator README + CLAUDE.md (GitHub)\n97\t\n98\t**Pages created (9):**\n99\t- prototype-creator.md \u2014 Phase 2 of AI-SDLC, prototype generation pipeline\n100\t- ai-sdlc-pipeline.md \u2014 three-phase pipeline overview (rfe \u2192 prototype \u2192 strat)\n101\t- decision-kit.md \u2014 Decision Driven Development toolkit, 24 skills\n102\t- agent-eval-harness.md \u2014 skill quality evaluation framework\n103\t- nielsens-heuristics-jagged-edge.md \u2014 first internship task, AI model comparison\n104\t- my-cursor-claw.md \u2014 personal workspace with 12 skills and 4 MCP connections\n105\t- ux-quality-rubric.md \u2014 4-dimension prototype scoring system\n106\t- evaluator-super-agent.md \u2014 upcoming assignment, automated prototype evaluation\n107\t- rfe-creator.md \u2014 Phase 1 of AI-SDLC, RFE creation and assessment\n108\t\n109\t**Cross-links established:** All 9 pages interlinked based on topical relationships. Key connections: prototype-creator \u2194 decision-kit (integration), evaluator-super-agent \u2194 agent-eval-harness (pattern reuse), nielsens-heuristics \u2194 evaluator-super-agent (methodology).\n110\t\n111\t**Index updated:** 3 categories created (Red Hat AI-SDLC, Evaluation & Quality, Tools & Skills).\n112\t\n113\t## 2026-06-09 \u2014 Ingested: Prototype Creator Demo Transcript (May 14)\n114\t\n115\t**Source:** sources/2026-05-14-prototype-creator-demo-transcript.md \u2014 ~2 hour recorded walkthrough by Andy Braren with Beau Morley and Dash Copeland\n116\t\n117\t**Created:** prototype-creator-demo-may14.md \u2014 Comprehensive summary covering both automated/speedrun and human-in-the-loop workflows, git submodule integration, preview URLs, token usage, and extensive team discussion on designer workflow, outcome-level prototyping, and the vision for tools beyond Cursor.\n118\t\n119\t**Cross-linked with:** prototype-creator.md (added demo reference), evaluator-super-agent.md (added \"Key Design Inputs from Demo\" section with 5 actionable insights: scope to NEW elements, generate decision pages in auto mode, outcome-level awareness, preview URL as eval entry point, token efficiency)\n120\t\n121\t**Category:** Red Hat AI-SDLC\n122\t\n123\t## 2026-06-09 \u2014 Ingested: Proposal for an Outcome Tiger Team\n124\t\n125\t**Source:** sources/2026-06-09-outcome-tiger-team-proposal.pdf \u2014 Andy Braren's proposal for agentic outcome creation, prioritization, and visualization. 3 workstreams: outcome creation, E2E prototype validation, outcome prioritization aid (\"Leaderboard of Pain\").\n126\t\n127\t**Created:** outcome-tiger-team.md \u2014 Comprehensive summary covering the problem (RFEs/STRATs disconnected from outcomes), three workstreams mapped to benefits, pipeline extension diagram, and direct connections to the evaluator super agent's outcome-level awareness requirement.\n128\t\n129\t**Cross-linked with:** ai-sdlc-pipeline.md (added outcomes as upstream step in flow diagram), prototype-creator.md (added Workstream 2 E2E validation link), evaluator-super-agent.md (added outcome-level awareness connection), rfe-creator.md (added Workstream 1 pattern reuse link)\n130\t\n131\t**Category:** Red Hat AI-SDLC\n132\t\n133\t## 2026-06-15 \u2014 Session Log\n134\t\n135\t**Sessions:** 4 agent conversations\n136\t\n137\t**Created:** session-log-2026-06-15.md \u2014 Built work-context, meeting-prep, standup-writer, and session-log skills; created sprint-manager; crafted prototype-evaluate Slack response; updated internship progress doc.\n138\t\n139\t**Tags:** #daily-log #2026-06-15 #skills #canvas #second-brain #prototype-creator\n140\t\n141\t**Files created/modified:** 8 files across 5 skills, 1 canvas, 1 script\n142\t\n143\t**Cross-linked with:** my-cursor-claw.md, prototype-creator.md, agent-eval-harness.md, evaluator-super-agent.md\n144\t\n145\t**Category:** Session Logs\n146\t\n147\t## 2026-06-16 \u2014 Session Log\n148\t\n149\t**Sessions:** 4 agent conversations\n150\t\n151\t**Signal:** 2 important items, 0 stale carry-forwards\n152\t\n153\t**Created:** session-log-2026-06-16.md \u2014 Shipped second brain smart check-ins (importance scoring, carry-forward, auto-resolve); created critique, humanize-text, doc-sync, superpowers, trend-scan skills; GitHub README redesign research.\n154\t\n155\t**Tags:** #daily-log #2026-06-16 #zack #shipped #skills #second-brain #github\n156\t\n157\t**Files created/modified:** 7 files across 6 skills, 1 config\n158\t\n159\t**Cross-linked with:** my-cursor-claw.md, decision-kit.md, agent-eval-harness.md\n160\t\n161\t**Category:** Session Logs\n162\t\n163\t## 2026-06-16 \u2014 Ingested: Red Hat AI-First Lessons (Jeremy Eder)\n164\t\n165\t**Source:** ~/Desktop/Second Brain Inbox/redhat-ai-first-lessons v2.pdf \u2014 38-slide deck on agentic SDLC, issue-to-PR bots, eval infrastructure, AgentReady, and organizational change.\n166\t\n167\t**Created:** redhat-ai-first-lessons.md \u2014 Comprehensive summary covering the 6-phase agentic SDLC, autonomous bugfix bot metrics (22-minute median issue-to-PR), evaluation fundamentals (datasets, runners, judges), context engineering principles, and AgentReady repo assessment tool.\n168\t\n169\t**Cross-linked with:** ai-sdlc-pipeline.md, agent-eval-harness.md, evaluator-super-agent.md, prototype-creator.md, rfe-creator.md\n170\t\n171\t**Category:** Red Hat AI-SDLC\n172\t\n173\t## 2026-06-16 \u2014 Ingested: Andy/Evan Evaluation Review Meeting\n174\t\n175\t- Created: andy-evan-eval-review-2026-06-16.md \u2014 Outcomes grounding, super evaluator architecture, overlay approach, hint mechanism, screenshot consolidation\n176\t- Cross-linked with: evaluator-super-agent.md, prototype-creator.md, outcome-tiger-team.md, ux-quality-rubric.md, ai-sdlc-pipeline.md\n177\t- Category: Meetings\n178\t- Also created: Obsidian note (01-Meetings/2026-06/) + HTML report (Notes Export/)\n179\t\n180\t## 2026-06-16 \u2014 Ingested: Cursor Work Summary (June 16)\n181\t\n182\t**Source:** ~/Desktop/Second Brain Inbox/2026-06-16-cursor-work-summary.md \u2014 Daily summary of 4 agent sessions.\n183\t\n184\t**Created:** cursor-work-2026-06-16.md \u2014 Record of trend-scan, batch skill creation, GitHub README, and second brain smart check-ins work.\n185\t\n186\t**Cross-linked with:** my-cursor-claw.md, decision-kit.md, agent-eval-harness.md, session-log-2026-06-16.md\n187\t\n188\t**Category:** Daily Work Logs\n189\t\n190\t## 2026-07-09 \u2014 Ingested: Weekly Design Sync (July 1, 2026)\n191\t\n192\t- Created: weekly-design-sync-2026-07-01.md \u2014 Team sync with Andy Braren, Evan, Zack Bodnar: evaluator demo set for next week, PatternFly 6 migration Q3 target, Nielsen's heuristics adopted as base rubric, scoring dimensions to revisit\n193\t- Cross-linked with: evaluator-super-agent.md, nielsens-heuristics-jagged-edge.md, ux-quality-rubric.md, prototype-creator.md\n194\t- Category: Meetings\n195\t\n196\t## 2026-07-09 \u2014 Updated: Vector Databases\n197\t- Updated: vector-databases.md \u2014 added pgvector to Popular Options (PostgreSQL extension for vector storage)\n198\t- No new cross-links needed; page already linked to vector-similarity-search.md and retrieval-augmented-generation.md\n199\t- Category: Machine Learning & AI\n200\t\n201\t## 2026-07-09 \u2014 Ingested: Vector Similarity Search\n202\t\n203\t- Created: vector-similarity-search.md \u2014 ANN algorithms (HNSW, IVF) for embedding-based semantic search; covers cosine similarity, dot product, speed/accuracy trade-offs\n204\t- Cross-linked with: vector-databases.md, retrieval-augmented-generation.md, agent-eval-harness.md\n205\t- Category: Machine Learning & AI (new category created; also catalogued vector-databases.md and retrieval-augmented-generation.md there)\n206\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:57:57.091Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.309Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.576Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.576Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.576Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.577Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.577Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.587Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.587Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.587Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.951Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.951Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.952Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.952Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.952Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.952Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.953Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:58.953Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.356Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.356Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.356Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.357Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.357Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.357Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.357Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.358Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.778Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.778Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.778Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.778Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.781Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.781Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.781Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:57:59.781Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.191Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.191Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.191Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.191Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.194Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.196Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.196Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.197Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.599Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.599Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.601Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.604Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.604Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.605Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.605Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.605Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:00.994Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:03.592Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:03.625Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:03.656Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:03.686Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:03.717Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:03.742Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:03.773Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:05.125Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:05.125Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:05.125Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:05.140Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:58:05.251Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:58:05.265Z",
+    "_msg_id": "msg_vrtx_01HcApS9v1LLMFJemUSmWnfV"
+  },
+  {
+    "type": "assistant",
+    "text": "This content is already fully covered. The page `prompt-engineering-best-practices.md` exists and contains all 5 key points from the submitted content \u2014 including format specification, few-shot examples, chain-of-thought, sequential prompts, and explicit constraints. The log shows it was ingested on 2026-07-09 from the same source (`Internal team discussion, 2026-06-15`).\n\nNo new page or update needed \u2014 the wiki already has this, cross-linked with `agent-eval-harness.md`, `skill-overlays.md`, and `evaluator-super-agent.md`.\n\nExisting page: `~/second-brain/wiki/prompt-engineering-best-practices.md`",
+    "tools": [],
+    "timestamp": "2026-07-09T15:58:06.058Z",
+    "_msg_id": "msg_vrtx_01HcApS9v1LLMFJemUSmWnfV"
+  },
+  {
+    "type": "result",
+    "cost_usd": 0.21970934999999997,
+    "num_turns": 6,
+    "timestamp": null
+  }
+]

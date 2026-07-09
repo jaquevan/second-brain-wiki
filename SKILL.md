@@ -91,7 +91,40 @@ summaries for cross-linking decisions.
 
 ---
 
+## Step 2b: Check for duplicates or near-duplicates
+
+Before creating a new page, check if the content substantially overlaps
+with an existing page. This is the most important quality gate.
+
+Compare the new content against existing pages on three dimensions:
+1. **Title overlap**: Does an existing page cover the same core topic?
+   ("Vector Similarity Search" overlaps with "Vector Databases")
+2. **Content overlap**: Do 3+ key points in the new content already appear
+   in an existing page?
+3. **Scope overlap**: Is the new content a subtopic of an existing page
+   rather than a distinct topic?
+
+Decision rules:
+- If overlap is HIGH (same topic, most points already covered): **UPDATE**
+  the existing page. Add new bullet points, update the log noting what was
+  added. Do NOT create a new page.
+- If overlap is MODERATE (related topic, some shared points): Create a new
+  page but cross-link heavily. Deduplicate any points that exist verbatim
+  in both.
+- If overlap is LOW (distinct topic): Proceed to Step 3 normally.
+
+When updating an existing page instead of creating new:
+1. Add new bullet points to the existing page's Key Points section
+2. Update the Sources section with the new source
+3. Log the update (not creation) in log.md
+4. Tell the user: "Merged into existing page [X] rather than creating a
+   duplicate"
+
+---
+
 ## Step 3: Create the wiki page
+
+**Only reach this step if Step 2b determined LOW or MODERATE overlap.**
 
 Write a new file at `<wiki-dir>/<slug>.md` using the template in
 `references/wiki-page-template.md`.

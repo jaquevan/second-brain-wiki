@@ -1,0 +1,840 @@
+[
+  {
+    "type": "system",
+    "subtype": "hook_started",
+    "timestamp": "2026-07-09T16:05:29.738Z"
+  },
+  {
+    "type": "system",
+    "subtype": "hook_response",
+    "timestamp": "2026-07-09T16:05:29.740Z"
+  },
+  {
+    "type": "system",
+    "subtype": "init",
+    "timestamp": "2026-07-09T16:05:29.760Z",
+    "model": "claude-opus-4-6"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.560Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.984Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.984Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.985Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.985Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.985Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.986Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.986Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:32.986Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.435Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.435Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.435Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.437Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.437Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.437Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.438Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.438Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.927Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.929Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.929Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.929Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.931Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.931Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.931Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:33.931Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:34.441Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:34.441Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:34.441Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:34.443Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:34.443Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T16:05:34.446Z",
+    "_msg_id": "msg_vrtx_01SwM2ps8e1sjCkpdgPy8LFr"
+  },
+  {
+    "type": "assistant",
+    "text": "I'll ingest this into your wiki. Let me read the config and check existing pages for duplicates.",
+    "tools": [],
+    "timestamp": "2026-07-09T16:05:34.967Z",
+    "_msg_id": "msg_vrtx_01SwM2ps8e1sjCkpdgPy8LFr"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01VV7eAY6gbzthmKPdaiDeYN",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-opus-v1/cases/ingest-duplicate-detection/.claude/skills/second-brain-wiki/references/config.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T16:05:37.111Z",
+    "_msg_id": "msg_vrtx_01SwM2ps8e1sjCkpdgPy8LFr"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01VV7eAY6gbzthmKPdaiDeYN",
+    "tool_name": "Read",
+    "content": "1\t# Second Brain Wiki Configuration\n2\t\n3\tThis file configures the skill for Evan's environment. Edit paths and\n4\tprojects as your work evolves.\n5\t\n6\t---\n7\t\n8\t## Paths\n9\t\n10\t| Path | Value | Description |\n11\t|------|-------|-------------|\n12\t| Wiki directory | `~/second-brain/wiki/` | Where wiki pages live |\n13\t| Sources directory | `~/second-brain/sources/` | Raw source files stored here |\n14\t| Inbox directory | `~/Desktop/Second Brain Inbox/` | Drop files here for processing |\n15\t\n16\t---\n17\t\n18\t## Active Projects\n19\t\n20\tThese are your current projects and areas of focus. The skill uses these\n21\tto find connections when ingesting new content.\n22\t\n23\t- **evaluator-super-agent** \u2014 automated prototype quality assessment using persona-driven walkthroughs, 7-dimension rubric scoring, actor/evaluator separation\n24\t- **prototype-creator** \u2014 generates clickable prototypes from RFEs, tiered AC classification, Playwright automation\n25\t- **agent-eval-harness** \u2014 framework for evaluating AI skill quality, eval.yaml configs, judges, scoring pipelines\n26\t- **ai-sdlc-pipeline** \u2014 three-phase pipeline: RFE Creator (WHAT) \u2192 Prototype Creator (SHOW) \u2192 Strat Creator (HOW)\n27\t- **my-cursor-claw** \u2014 personal workspace with 20+ skills, MCP connections, notetaking, automations\n28\t- **decision-kit** \u2014 Decision Driven Development toolkit, /strategize, /decide, /journal\n29\t- **automated-usability-testing** \u2014 simulated usability testing tool, persona YAML files, evaluate-flow protocol\n30\t- **archie** \u2014 UX research agent for the RHOAIUX team\n31\t- **rhoai-prototypes** \u2014 RHOAI prototype collection for evaluation\n32\t\n33\t---\n34\t\n35\t## Calendar Integration\n36\t\n37\t| Setting | Value |\n38\t|---------|-------|\n39\t| Calendar name | `primary` |\n40\t| Auto-ingest meetings | `true` |\n41\t| Minimum meeting duration | `15 min` |\n42\t| Require notes/transcript | `true` |\n43\t| Skip recurring without notes | `true` |\n44\t\n45\tEvents that qualify for auto-ingestion:\n46\t- Have attached meeting notes or a description with substance (not just \"Weekly sync\")\n47\t- Have a linked Google Doc (agenda, transcript, action items)\n48\t- Duration is 15+ minutes\n49\t- Are not recurring meetings that had no notes added\n50\t\n51\t---\n52\t\n53\t## MCP Integrations\n54\t\n55\t| Integration | MCP Server | Used for |\n56\t|-------------|-----------|----------|\n57\t| Google Docs | `user-google-workspace` | Extracting doc content |\n58\t| Google Calendar | `user-google-workspace` | Meeting ingestion |\n59\t| Slack | `project-0-my-cursor-claw-slack` | Channel message ingestion |\n60\t\n61\t---\n62\t\n63\t## Cross-Link Priority\n64\t\n65\tWhen multiple connections exist, prioritize these categories (from the\n66\twiki index):\n67\t\n68\t1. **Red Hat AI-SDLC** \u2014 pipeline components, RFE/prototype/strat flow\n69\t2. **Evaluation & Quality** \u2014 rubrics, heuristics, eval harness\n70\t3. **Tools & Skills** \u2014 decision kit, cursor claw, skill overlays\n71\t4. **Meetings** \u2014 meeting notes with action items and decisions\n72\t5. **Standups** \u2014 sprint progress and blockers\n73\t6. **Session Logs** \u2014 what was built and shipped\n74\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T16:05:37.123Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_018xiLvzHzTmjpVP3DdH1Vyk",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-opus-v1/cases/ingest-duplicate-detection/.claude/skills/second-brain-wiki/references/wiki-page-template.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T16:05:37.778Z",
+    "_msg_id": "msg_vrtx_01SwM2ps8e1sjCkpdgPy8LFr"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_018xiLvzHzTmjpVP3DdH1Vyk",
+    "tool_name": "Read",
+    "content": "1\t# Wiki Page Template\n2\t\n3\tUse this template when creating new wiki pages. Copy the structure,\n4\tfill in the bracketed fields.\n5\t\n6\t---\n7\t\n8\t## Template\n9\t\n10\t```markdown\n11\t# <Page Title>\n12\t\n13\t<One-sentence summary of what this page covers.>\n14\t\n15\t## Key Points\n16\t\n17\t- <Bullet point 1: a concrete fact, concept, or takeaway>\n18\t- <Bullet point 2>\n19\t- <Bullet point 3>\n20\t- <Additional bullets as needed, max 10>\n21\t\n22\t## Related\n23\t\n24\t- [<Related Page Title>](<related-slug>.md) \u2014 <one-line reason for connection>\n25\t- [<Another Related Page>](<slug>.md) \u2014 <connection reason>\n26\t\n27\t## Sources\n28\t\n29\t- <path/to/source/file or URL where this came from>\n30\t- Ingested: <YYYY-MM-DD>\n31\t```\n32\t\n33\t---\n34\t\n35\t## Good Example\n36\t\n37\t```markdown\n38\t# Retrieval Augmented Generation\n39\t\n40\tTechnique that grounds LLM responses in retrieved documents rather than\n41\trelying solely on training data.\n42\t\n43\t## Key Points\n44\t\n45\t- Combines a retriever (vector search) with a generator (LLM)\n46\t- Reduces hallucination by providing source documents as context\n47\t- Trade-off: retrieval quality limits generation quality\n48\t- Common stack: embeddings \u2192 vector DB \u2192 reranker \u2192 LLM prompt\n49\t- Works best when source corpus is well-chunked and up-to-date\n50\t\n51\t## Related\n52\t\n53\t- [Vector Databases](vector-databases.md) \u2014 the retrieval layer in RAG pipelines\n54\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 uses embedding similarity for judge calibration\n55\t\n56\t## Sources\n57\t\n58\t- ~/second-brain/sources/what-is-rag.md\n59\t- Ingested: 2026-06-10\n60\t```\n61\t\n62\t---\n63\t\n64\t## Bad Example\n65\t\n66\t```markdown\n67\t# RAG\n68\t\n69\tRetrieval Augmented Generation (RAG) is a technique in artificial intelligence\n70\tthat combines information retrieval with text generation. It was first proposed\n71\tby Lewis et al. in 2020. The basic idea is that instead of relying solely on\n72\twhat a language model learned during training, you can augment it with relevant\n73\tdocuments retrieved at inference time.\n74\t\n75\tThis approach has several advantages. First, it reduces hallucination because\n76\tthe model can reference actual documents. Second, it allows the model to access\n77\tup-to-date information that wasn't in its training data. Third, it provides\n78\ttransparency because you can trace responses back to source documents.\n79\t\n80\tThere are several implementations of RAG available today...\n81\t```\n82\t\n83\t**Why it's bad:**\n84\t- Reads like a Wikipedia article, not a wiki node\n85\t- No bullet summaries (walls of prose)\n86\t- No Related section (isolated page, no connections)\n87\t- No Sources section (where did this come from?)\n88\t- Title is an acronym without expansion\n89\t- Contains filler (\"There are several...\" \"This approach has...\")\n90\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T16:05:37.783Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_01Pt8f5SEsQyfuGTiquZmG9H",
+        "input": {
+          "command": "ls ~/second-brain/wiki/ 2>/dev/null || echo \"WIKI_DIR_NOT_FOUND\"",
+          "description": "List existing wiki pages"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T16:05:40.525Z",
+    "_msg_id": "msg_vrtx_01Y1fHDX4G3PesF4f1Q5MEL1"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01Pt8f5SEsQyfuGTiquZmG9H",
+    "tool_name": "Bash",
+    "content": "agent-eval-harness.md\nai-first-sync-2026-06-25.md\nai-helpers-repo-slack-2026-07-02.md\nai-sdlc-pipeline.md\nandy-evan-2026-06-22.md\nandy-evan-2026-06-29.md\nandy-evan-eval-review-2026-06-16.md\nansible-ai-helpers-strategy-2026-06-17.md\ncursor-work-2026-06-16.md\ndecision-kit.md\nevaluator-super-agent.md\nindex.md\nlog.md\nmidpoint-checkin-2026-06-30.md\nmy-cursor-claw.md\nnielsens-10-usability-heuristics.md\nnielsens-heuristics-jagged-edge.md\noutcome-tiger-team.md\nprompt-engineering-best-practices.md\nprototype-creator-demo-may14.md\nprototype-creator.md\nredhat-ai-first-lessons.md\nretrieval-augmented-generation.md\nrfe-creator.md\nrh-ai-first-ux-2026-06-18.md\nrh-ai-first-ux-2026-06-25.md\nsession-log-2026-06-15.md\nsession-log-2026-06-16.md\nskill-overlays.md\nstandup-2026-06-22.md\nstandup-2026-06-29.md\nux-quality-rubric.md\nvector-databases.md\nvector-similarity-search.md\nweekly-design-sync-2026-07-01.md\nwg-uxd-efficiency-2026-06-29.md\nzack-evan-2026-06-24.md",
+    "is_error": false,
+    "timestamp": "2026-07-09T16:05:40.735Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.481Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.905Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.906Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.906Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.911Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.911Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.913Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.917Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:42.918Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.354Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.783Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.784Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.785Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.786Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:43.878Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T16:05:43.880Z",
+    "_msg_id": "msg_vrtx_01Vddwasym7ug2jvK2qDeocF"
+  },
+  {
+    "type": "assistant",
+    "text": "There's already a `vector-similarity-search.md` page. Let me check it and the related `vector-databases.md` for overlap.",
+    "tools": [],
+    "timestamp": "2026-07-09T16:05:44.258Z",
+    "_msg_id": "msg_vrtx_01Vddwasym7ug2jvK2qDeocF"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01PnqFWxg6jYei3xjdGZQprT",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/vector-similarity-search.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T16:05:44.929Z",
+    "_msg_id": "msg_vrtx_01Vddwasym7ug2jvK2qDeocF"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01PnqFWxg6jYei3xjdGZQprT",
+    "tool_name": "Read",
+    "content": "1\t# Vector Similarity Search\n2\t\n3\tCore technique for finding semantically similar content using vector embeddings \u2014 the engine behind modern search, recommendations, and deduplication.\n4\t\n5\t## Key Points\n6\t\n7\t- Text is transformed into dense vector embeddings via transformer models (e.g. OpenAI, Cohere, sentence-transformers)\n8\t- Similarity measured with cosine similarity (angle between vectors) or dot product (magnitude-aware)\n9\t- Approximate Nearest Neighbor (ANN) algorithms trade small accuracy losses for large speed gains\n10\t  - **HNSW** (Hierarchical Navigable Small Worlds) \u2014 graph-based, best recall/speed trade-off\n11\t  - **IVF** (Inverted File Index) \u2014 cluster-based, efficient at massive scale\n12\t- Exact search is O(n) per query; ANN brings this closer to O(log n)\n13\t- Powers: RAG retrieval, recommendation engines, semantic search, duplicate detection\n14\t\n15\t## Related\n16\t\n17\t- [Vector Databases](vector-databases.md) \u2014 specialized stores that implement ANN indexing at scale\n18\t- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 uses vector similarity as its retrieval step\n19\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 similarity search is applicable for deduplicating test cases and detecting redundant eval inputs\n20\t\n21\t## Sources\n22\t\n23\t- Ingested: 2026-07-09\n24\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T16:05:44.934Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01A39p3DUmfN7XNW3PM9Re2p",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/vector-databases.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T16:05:45.253Z",
+    "_msg_id": "msg_vrtx_01Vddwasym7ug2jvK2qDeocF"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01A39p3DUmfN7XNW3PM9Re2p",
+    "tool_name": "Read",
+    "content": "1\t# Vector Databases\n2\t\n3\tA vector database stores data as high-dimensional vectors (embeddings) and enables fast similarity search. They are a key component in [RAG](retrieval-augmented-generation.md) pipelines, recommendation systems, and semantic search.\n4\t\n5\t## Key Concepts\n6\t\n7\t- **Embeddings** \u2014 dense numerical representations of text, images, or other content; the format vector DBs store and search\n8\t- **Cosine similarity** \u2014 primary distance metric; measures the angle between vectors regardless of magnitude\n9\t- **HNSW** \u2014 the ANN algorithm most vector DBs use; see [Vector Similarity Search](vector-similarity-search.md) for detail\n10\t- **Speed vs. recall trade-off** \u2014 exact search is precise but O(n); approximate (ANN) is fast but may miss the nearest neighbor\n11\t\n12\t## Popular Options\n13\t\n14\t- **ChromaDB** \u2014 open-source, easy to set up, Python-native\n15\t- **Pinecone** \u2014 managed service, scales automatically\n16\t- **Weaviate** \u2014 open-source, supports hybrid search (vector + keyword)\n17\t- **Qdrant** \u2014 open-source, Rust-based, high performance\n18\t- **pgvector** \u2014 PostgreSQL extension; adds vector storage and ANN search to an existing Postgres DB\n19\t\n20\t## How They Work\n21\t\n22\t1. Documents are converted to embeddings using a model\n23\t2. Embeddings are indexed for fast nearest-neighbor search\n24\t3. At query time, the query is embedded and compared to stored vectors\n25\t4. The most similar vectors (and their associated documents) are returned\n26\t\n27\t## Use Cases\n28\t\n29\t- [RAG systems](retrieval-augmented-generation.md) for grounding LLM responses\n30\t- Semantic search across large document collections\n31\t- Recommendation engines\n32\t- Image and audio similarity search\n33\t\n34\t## Related\n35\t\n36\t- [Vector Similarity Search](vector-similarity-search.md) \u2014 the algorithms (HNSW, IVF) that power the nearest-neighbor queries vector DBs run\n37\t- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 primary consumer of vector DB retrieval\n38\t\n39\t## Sources\n40\t\n41\t- sources/vector-databases.md\n42\t- Ingested: 2026-07-09 (updated: added pgvector)\n43\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T16:05:45.255Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_014akVa6ipiQ6enks6cznuc8",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/retrieval-augmented-generation.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T16:05:45.492Z",
+    "_msg_id": "msg_vrtx_01Vddwasym7ug2jvK2qDeocF"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_014akVa6ipiQ6enks6cznuc8",
+    "tool_name": "Read",
+    "content": "1\t# Retrieval-Augmented Generation\n2\t\n3\tRetrieval-Augmented Generation (RAG) is a technique that enhances LLM responses by retrieving relevant documents from an external knowledge base before generating an answer. Instead of relying solely on the model's training data, RAG grounds responses in real, up-to-date documents.\n4\t\n5\t## How It Works\n6\t\n7\t1. A user asks a question\n8\t2. The system searches a document store (e.g. a [vector database](vector-databases.md), keyword index) for relevant chunks\n9\t3. Those chunks are injected into the LLM prompt as context\n10\t4. The LLM generates an answer grounded in the retrieved documents\n11\t\n12\t## Benefits\n13\t\n14\t- **Reduces hallucination** \u2014 answers are grounded in real documents\n15\t- **Updatable without retraining** \u2014 swap or add documents anytime\n16\t- **Works with proprietary data** \u2014 keeps domain-specific knowledge accessible\n17\t\n18\t## Limitations\n19\t\n20\t- Quality depends heavily on the retrieval step \u2014 bad retrieval means bad answers\n21\t- Large documents may require chunking strategies to fit context windows\n22\t- Embedding models add latency and cost to the pipeline\n23\t\n24\t## Common Tools\n25\t\n26\t- **Orchestration:** LangChain, LlamaIndex\n27\t- **Vector storage:** ChromaDB, Pinecone, Weaviate (see [Vector Databases](vector-databases.md))\n28\t- **Embeddings:** OpenAI, Cohere, or open-source models\n29\t\n30\t## Related\n31\t\n32\t- [Vector Similarity Search](vector-similarity-search.md) \u2014 the mechanism behind the retrieval step\n33\t- [Vector Databases](vector-databases.md) \u2014 the storage layer that indexes embeddings for fast retrieval\n34\t\n35\t## Sources\n36\t\n37\t- sources/what-is-rag.md\n38\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T16:05:45.494Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:48.244Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:48.769Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:48.811Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:48.849Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:48.898Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:48.946Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:48.997Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.027Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.120Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.142Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.162Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.205Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.230Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.256Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.280Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.317Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.343Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.460Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.479Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.532Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.645Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.645Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.645Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.645Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.673Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.894Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.911Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.924Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.942Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.961Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:49.987Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.002Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.047Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.355Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.434Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.452Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.490Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.524Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.568Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.600Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.694Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.797Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.812Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.828Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.848Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.864Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.887Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.902Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:50.925Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.296Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.311Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.337Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.365Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.395Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.419Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.454Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:51.475Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.682Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.717Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.750Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.774Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.795Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.889Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.889Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.889Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.890Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.929Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:54.972Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:55.000Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:55.034Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:55.082Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:55.112Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:55.145Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:55.231Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T16:05:55.277Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T16:05:55.286Z",
+    "_msg_id": "msg_vrtx_013rv5tGpQ7zThXXajUSjd9o"
+  },
+  {
+    "type": "assistant",
+    "text": "This content already exists in your wiki. The existing page **[vector-similarity-search.md](~/second-brain/wiki/vector-similarity-search.md)** covers every point from the new content:\n\n| Your input | Already in wiki |\n|---|---|\n| Transforms text into embeddings via transformer models | \"Text is transformed into dense vector embeddings via transformer models (e.g. OpenAI, Cohere, sentence-transformers)\" |\n| Compares vectors using cosine similarity or dot product | \"Similarity measured with cosine similarity (angle between vectors) or dot product (magnitude-aware)\" |\n| Approximate algorithms (HNSW, IVF) trade accuracy for speed | HNSW and IVF both explained with detail on their approach |\n| Powers RAG retrieval, recommendation engines, deduplication | \"Powers: RAG retrieval, recommendation engines, semantic search, duplicate detection\" |\n\n**No new page created** \u2014 the existing page already covers this topic with equal or greater depth. It's also already cross-linked to [Vector Databases](~/second-brain/wiki/vector-databases.md) and [Retrieval-Augmented Generation](~/second-brain/wiki/retrieval-augmented-generation.md).\n\nIf you have new information to add beyond what's already there (e.g., specific embedding model benchmarks, a new ANN algorithm, or a use case from one of your projects), let me know and I'll merge it into the existing page.",
+    "tools": [],
+    "timestamp": "2026-07-09T16:06:01.596Z",
+    "_msg_id": "msg_vrtx_013rv5tGpQ7zThXXajUSjd9o"
+  },
+  {
+    "type": "result",
+    "cost_usd": 0.33227525,
+    "num_turns": 7,
+    "timestamp": null
+  }
+]

@@ -1,0 +1,4 @@
+Ignoring 6 permissions.allow entries from .claude/settings.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects["/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v2/cases/ingest-url"].hasTrustDialogAccepted: true in /Users/ejaquez/.claude.json.
+Ignoring 1 permissions.additionalDirectories entry from .claude/settings.json: this workspace has not been trusted. Run Claude Code interactively here once and accept the trust dialog, or set projects["/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v2/cases/ingest-url"].hasTrustDialogAccepted: true in /Users/ejaquez/.claude.json.
+
+WARNING: 1 permission denial(s) detected during execution

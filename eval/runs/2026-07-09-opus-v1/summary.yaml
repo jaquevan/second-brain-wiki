@@ -1,0 +1,146 @@
+judges:
+  budget_check:
+    mean: 1.0
+    pass_rate: 1.0
+  cross_linking_quality:
+    mean: 1.0
+    pass_rate: 1.0
+  duplicate_handling:
+    mean: 0.75
+    pass_rate: 0.75
+  no_prose_walls:
+    mean: 1.0
+    pass_rate: 1.0
+  overall_quality:
+    mean: 3.0
+    pass_rate: null
+  wiki_page_structure:
+    mean: 1.0
+    pass_rate: 1.0
+per_case:
+  context-retrieval:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.55 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Context mode - cross-link check N/A
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Context mode - prose check N/A
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '5
+
+
+        This is an excellent context retrieval response. It correctly identifies the
+        mode (context, not ingest), finds both expected direct matches (Nielsen''s
+        heuristics pages and evaluator-super-agent.md)'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Context mode: wiki-sourced response provided'
+      value: true
+  ingest-duplicate-detection:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.55 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Unclear whether duplicate was detected
+      value: false
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '4
+
+
+        The skill correctly identified the input as a near-duplicate and did not create
+        a new page, which aligns with `is_near_duplicate: True`, `should_not_create_new_page:
+        True`, and `should_log_update_n'
+      value: 4
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Partial workflow evidence: page creation, cross-linking'
+      value: true
+  ingest-slack-thread:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.55 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '2
+
+
+        The skill detected a duplicate and declined to create a new page, which shows
+        intelligent dedup behavior. However, the test annotations explicitly state
+        `should_create_page: True`, meaning the expe'
+      value: 1
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, source tracking'
+      value: true
+  ingest-url:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.55 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '2
+
+
+        The skill correctly identified that the URL had already been ingested and
+        found the existing page with its cross-links, which shows good awareness of
+        wiki state. However, the annotations clearly in'
+      value: 2
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, source tracking'
+      value: true
+run_id: 2026-07-09-opus-v1
+run_metrics:
+  cache_hit_rate: 0.715258
+  cost_per_mtok_usd: 2.3646
+  cost_per_turn_usd: 0.091176
+  output_tokens_per_turn: 386.53

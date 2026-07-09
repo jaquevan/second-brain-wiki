@@ -1,0 +1,244 @@
+judges:
+  budget_check:
+    mean: 1.0
+    pass_rate: 1.0
+  cross_linking_quality:
+    mean: 1.0
+    pass_rate: 1.0
+  duplicate_handling:
+    mean: 1.0
+    pass_rate: 1.0
+  no_prose_walls:
+    mean: 0.7142857142857143
+    pass_rate: 0.7142857142857143
+  overall_quality:
+    mean: 3.857142857142857
+    pass_rate: null
+  wiki_page_structure:
+    mean: 1.0
+    pass_rate: 1.0
+per_case:
+  context-retrieval:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.67 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Context mode - cross-link check N/A
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Context mode - prose check N/A
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '5
+
+
+        The output excels across every evaluation criterion. It correctly operates
+        in context/retrieval mode without modifying the wiki. It finds direct matches
+        including the expected pages (Nielsen''s heur'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Context mode: wiki-sourced response provided'
+      value: true
+  ingest-duplicate-detection:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.67 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Correctly updated existing page without creating duplicate
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '2
+
+
+        The skill correctly identified a near-duplicate situation and correctly did
+        not create a new page, which aligns with `should_not_create_new_page: True`
+        and `is_near_duplicate: True`. However, the a'
+      value: 2
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, index/log
+        update'
+      value: true
+  ingest-meeting-notes:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.67 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '4
+
+
+        The skill correctly identified that the page already existed and verified
+        its content rather than creating a duplicate, which is intelligent behavior.
+        It confirmed the page slug contains "2026-07-0'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: cross-linking, index/log update, source
+        tracking'
+      value: true
+  ingest-raw-text:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.67 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: No specific cross-links expected
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '2
+
+
+        The skill detected the correct page slug (`prompt-engineering-best-practices`)
+        and identified relevant cross-links to existing pages, which is positive.
+        However, there are major issues:
+
+
+        1. **No so'
+      value: 1
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: cross-linking, index/log update, source
+        tracking'
+      value: true
+  ingest-slack-thread:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.67 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: No specific cross-links expected
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '4
+
+
+        The skill correctly detected the input as a Slack thread requiring page creation,
+        produced a well-slugged page (`ai-helpers-repo-slack-2026-07-02.md` contains
+        "ai-helpers"), and cross-linked with t'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, index/log
+        update'
+      value: true
+  ingest-url:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.67 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: 3 long prose paragraphs found (wiki pages should use bullets)
+      value: false
+    overall_quality:
+      judge_type: llm
+      rationale: '4
+
+
+        The skill correctly created a new wiki page, fetched the URL content, identified
+        low overlap with the existing `nielsens-heuristics-jagged-edge.md`, cross-linked
+        with multiple relevant pages (inclu'
+      value: 4
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, index/log
+        update, source tracking'
+      value: true
+  ingest-with-crosslinks:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.67 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: 'All expected cross-links found: [''retrieval-augmented-generation.md'']'
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: 3 long prose paragraphs found (wiki pages should use bullets)
+      value: false
+    overall_quality:
+      judge_type: llm
+      rationale: '4
+
+
+        The skill correctly identified HIGH overlap with existing pages and chose
+        to merge rather than duplicate, which is a smart wiki-management decision.
+        It updated the log, identified the correct page '
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Partial workflow evidence: cross-linking, index/log update'
+      value: true
+run_id: 2026-07-09-sonnet-v2
+run_metrics:
+  cache_hit_rate: 0.861578
+  cost_per_mtok_usd: 0.937
+  cost_per_turn_usd: 0.037955
+  output_tokens_per_turn: 458.18

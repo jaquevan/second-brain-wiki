@@ -1,0 +1,27 @@
+prompt: |
+  Add this to my wiki:
+
+  # Vector Databases
+
+  Specialized databases that store and query high-dimensional vector embeddings.
+  Used heavily in RAG pipelines and similarity search applications.
+
+  Key concepts:
+  - Embeddings: dense numerical representations of text/images
+  - Cosine similarity: primary distance metric for semantic search
+  - HNSW: approximate nearest neighbor algorithm used by most vector DBs
+  - Popular options: Pinecone, Weaviate, Qdrant, pgvector
+  - Trade-off: speed vs recall (exact search is slow, approximate is fast)
+wiki_state:
+  - title: "Retrieval Augmented Generation"
+    slug: "retrieval-augmented-generation.md"
+    content: |
+      # Retrieval Augmented Generation
+      Grounds LLM responses in retrieved documents.
+      ## Key Points
+      - Combines retriever with generator
+      - Reduces hallucination
+      - Retrieval quality limits generation quality
+      ## Related
+      ## Sources
+      - ~/second-brain/sources/what-is-rag.md

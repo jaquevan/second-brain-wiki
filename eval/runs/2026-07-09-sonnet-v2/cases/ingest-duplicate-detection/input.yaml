@@ -1,0 +1,27 @@
+prompt: |
+  Wiki this:
+
+  # Vector Similarity Search
+
+  Using vector embeddings to find semantically similar content.
+  Core technique behind modern search and recommendation systems.
+
+  - Transforms text into embeddings via transformer models
+  - Compares vectors using cosine similarity or dot product
+  - Approximate algorithms (HNSW, IVF) trade accuracy for speed
+  - Powers RAG retrieval, recommendation engines, deduplication
+wiki_state:
+  - title: "Vector Databases"
+    slug: "vector-databases.md"
+    content: |
+      # Vector Databases
+      Specialized databases for high-dimensional vector embeddings.
+      ## Key Points
+      - Embeddings: dense numerical representations
+      - Cosine similarity for semantic search
+      - HNSW approximate nearest neighbor
+      - Popular: Pinecone, Weaviate, Qdrant
+      ## Related
+      - [Retrieval Augmented Generation](retrieval-augmented-generation.md)
+      ## Sources
+      - Ingested: 2026-06-10

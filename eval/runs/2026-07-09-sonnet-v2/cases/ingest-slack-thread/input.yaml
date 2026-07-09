@@ -1,0 +1,23 @@
+prompt: |
+  Ingest this Slack thread into my wiki:
+
+  Channel: #uxd-rhoai
+  Thread started by Andy Braren, 2026-07-02
+
+  Andy: Hey team, quick update on the AI helpers repo strategy. We're going
+  with a centralized repo that distributes skills via MRs to consuming projects.
+  Each skill gets its own directory with a SKILL.md and references folder.
+
+  Evan: nice, does that mean we can version skills independently?
+
+  Andy: Exactly. Each skill directory is self-contained. Teams pull what they
+  need. We'll have a review process for new skills going in.
+
+  Zack: What about testing? Do we require eval configs for every skill?
+
+  Andy: Good question. Starting with recommended-but-optional. Once we have
+  enough examples of good eval.yaml configs, we'll make it required.
+
+  Evan: makes sense. the agent-eval-harness pattern would work well for that
+
+  Andy: Yep, that's the plan. I'll send a more detailed proposal next week.

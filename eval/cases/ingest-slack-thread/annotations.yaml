@@ -1,0 +1,14 @@
+input_type: slack_thread
+should_create_page: true
+expected_page_slug_contains: "ai-helpers"
+expected_sections:
+  - "Key Points"
+  - "Related"
+  - "Sources"
+should_include_participants: true
+should_include_channel: true
+should_update_log: true
+should_cross_link: true
+likely_related_pages:
+  - "agent-eval-harness.md"
+  - "my-cursor-claw.md"

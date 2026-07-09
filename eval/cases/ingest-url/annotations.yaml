@@ -1,0 +1,14 @@
+input_type: url
+should_fetch_url: true
+should_create_page: true
+expected_sections:
+  - "Key Points"
+  - "Related"
+  - "Sources"
+should_include_url_in_sources: true
+should_update_log: true
+should_update_index: true
+should_cross_link: true
+likely_related_pages:
+  - "nielsens-heuristics-jagged-edge.md"
+  - "evaluator-super-agent.md"
