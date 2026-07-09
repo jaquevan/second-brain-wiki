@@ -1,28 +1,34 @@
 # Second Brain Wiki Configuration
 
-Edit this file to configure the skill for your environment.
+This file configures the skill for Evan's environment. Edit paths and
+projects as your work evolves.
 
 ---
 
 ## Paths
 
-| Path | Default | Description |
-|------|---------|-------------|
+| Path | Value | Description |
+|------|-------|-------------|
 | Wiki directory | `~/second-brain/wiki/` | Where wiki pages live |
-| Sources directory | `~/second-brain/sources/` | Raw source files are stored here |
+| Sources directory | `~/second-brain/sources/` | Raw source files stored here |
 | Inbox directory | `~/Desktop/Second Brain Inbox/` | Drop files here for processing |
 
 ---
 
 ## Active Projects
 
-List your current projects/areas of focus here. The skill uses these
+These are your current projects and areas of focus. The skill uses these
 to find connections when ingesting new content.
 
-Format: `- **project-name** — brief description of what it involves`
-
-- **example-project** — describe what this project is about
-- **another-project** — key topics and technologies involved
+- **evaluator-super-agent** — automated prototype quality assessment using persona-driven walkthroughs, 7-dimension rubric scoring, actor/evaluator separation
+- **prototype-creator** — generates clickable prototypes from RFEs, tiered AC classification, Playwright automation
+- **agent-eval-harness** — framework for evaluating AI skill quality, eval.yaml configs, judges, scoring pipelines
+- **ai-sdlc-pipeline** — three-phase pipeline: RFE Creator (WHAT) → Prototype Creator (SHOW) → Strat Creator (HOW)
+- **my-cursor-claw** — personal workspace with 20+ skills, MCP connections, notetaking, automations
+- **decision-kit** — Decision Driven Development toolkit, /strategize, /decide, /journal
+- **automated-usability-testing** — simulated usability testing tool, persona YAML files, evaluate-flow protocol
+- **archie** — UX research agent for the RHOAIUX team
+- **rhoai-prototypes** — RHOAI prototype collection for evaluation
 
 ---
 
@@ -31,23 +37,37 @@ Format: `- **project-name** — brief description of what it involves`
 | Setting | Value |
 |---------|-------|
 | Calendar name | `primary` |
-| Auto-ingest meetings | `false` |
+| Auto-ingest meetings | `true` |
 | Minimum meeting duration | `15 min` |
 | Require notes/transcript | `true` |
+| Skip recurring without notes | `true` |
 
-When auto-ingest is enabled, the skill processes calendar events that
-have attached notes, transcripts, or linked Google Docs. Events without
-substantive content are skipped.
+Events that qualify for auto-ingestion:
+- Have attached meeting notes or a description with substance (not just "Weekly sync")
+- Have a linked Google Doc (agenda, transcript, action items)
+- Duration is 15+ minutes
+- Are not recurring meetings that had no notes added
 
 ---
 
-## MCP Integrations (Optional)
+## MCP Integrations
 
 | Integration | MCP Server | Used for |
 |-------------|-----------|----------|
 | Google Docs | `user-google-workspace` | Extracting doc content |
 | Google Calendar | `user-google-workspace` | Meeting ingestion |
-| Slack | Slack MCP server | Channel message ingestion |
+| Slack | `project-0-my-cursor-claw-slack` | Channel message ingestion |
 
-If an MCP server is not configured, the skill skips that input type
-and tells the user what's unavailable.
+---
+
+## Cross-Link Priority
+
+When multiple connections exist, prioritize these categories (from the
+wiki index):
+
+1. **Red Hat AI-SDLC** — pipeline components, RFE/prototype/strat flow
+2. **Evaluation & Quality** — rubrics, heuristics, eval harness
+3. **Tools & Skills** — decision kit, cursor claw, skill overlays
+4. **Meetings** — meeting notes with action items and decisions
+5. **Standups** — sprint progress and blockers
+6. **Session Logs** — what was built and shipped
