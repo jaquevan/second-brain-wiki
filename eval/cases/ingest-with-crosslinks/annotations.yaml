@@ -1,0 +1,9 @@
+expected_page_slug: vector-databases
+should_cross_link_to:
+  - "retrieval-augmented-generation.md"
+should_add_backlink_to:
+  - "retrieval-augmented-generation.md"
+cross_link_reason_quality: "genuine conceptual connection, not forced"
+should_update_index: true
+should_update_log: true
+min_bullet_points: 4

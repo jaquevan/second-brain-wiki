@@ -1,0 +1,9 @@
+expected_page_slug: prompt-engineering-best-practices
+expected_sections:
+  - "Key Points"
+  - "Related"
+  - "Sources"
+min_bullet_points: 3
+should_create_source_file: true
+should_update_log: true
+should_update_index: true

@@ -1,0 +1,9 @@
+expected_page_slug_contains: "2026-07-01"
+expected_sections:
+  - "Key Points"
+  - "Related"
+  - "Sources"
+should_include_attendees: true
+should_include_action_items: true
+should_update_log: true
+should_cross_link: true

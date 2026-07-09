@@ -1,0 +1,13 @@
+prompt: |
+  Ingest this into my wiki:
+
+  # Prompt Engineering Best Practices
+
+  Key techniques for writing effective prompts:
+  - Be specific about the output format you want
+  - Provide examples of good and bad output
+  - Use chain-of-thought for complex reasoning tasks
+  - Break multi-step tasks into sequential prompts
+  - Include constraints and boundaries explicitly
+
+  Source: Internal team discussion, 2026-06-15

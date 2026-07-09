@@ -1,0 +1,199 @@
+name: second-brain-wiki-eval
+description: Evaluates the second-brain-wiki skill's ability to ingest sources, create well-structured wiki pages, cross-link content, and retrieve context.
+skill: second-brain-wiki
+
+execution:
+  mode: case
+  arguments: "{prompt}"
+  timeout: 120
+
+runner:
+  type: claude-code
+
+models:
+  skill: claude-opus-4-6
+  judge: claude-opus-4-6
+
+permissions:
+  allow: []
+  deny: ["mcp__*"]
+
+mlflow:
+  experiment: second-brain-wiki-eval
+
+dataset:
+  path: eval/cases
+  schema: |
+    Each case directory contains:
+    - input.yaml: YAML file with 'prompt' (the user message to send to the
+      skill, containing raw text, meeting notes, or a context query) and
+      optionally 'wiki_state' (a list of existing wiki pages to simulate
+      pre-existing wiki content, each with title, slug, and content fields).
+    - annotations.yaml: Expected outcomes for judging — includes fields like
+      expected_page_slug, expected_sections, should_cross_link_to,
+      should_update_log, is_near_duplicate, expected_mode, etc.
+      Annotations are test-case-specific and vary by scenario.
+
+inputs:
+  tools:
+    - match: Questions asked to the user via AskUserQuestion
+      prompt: |
+        Answer based on the test case context in input.yaml.
+        Default: pick the first option or answer "yes" for confirmations.
+
+outputs:
+  - path: output
+    schema: |
+      The skill produces wiki pages as markdown files. Expected outputs:
+      - Wiki page (.md file) with H1 title, Key Points bullets, Related
+        section with cross-links, and Sources section
+      - Updated index.md with the new page categorized
+      - Updated log.md with an ingestion entry (date, page name, cross-links)
+      - For context mode: structured context response in conversation output
+        (no files modified)
+
+traces:
+  stdout: true
+  stderr: true
+  events: true
+  metrics: true
+
+judges:
+  - name: budget_check
+    builtin: cost_budget
+    arguments:
+      max_cost_usd: 2.0
+
+  - name: wiki_page_structure
+    description: |
+      Checks that the skill's conversation output contains evidence of a
+      properly structured wiki page with required sections.
+    check: |
+      text = outputs.get("conversation", "")
+      if not text:
+          return (False, "No conversation output")
+      has_title = "# " in text
+      has_key_points = "Key Points" in text or "## Key" in text
+      has_related = "Related" in text
+      has_sources = "Sources" in text or "Source" in text
+      annotations = outputs.get("annotations", {})
+      if annotations.get("expected_mode") == "context":
+          has_matches = "Direct Match" in text or "direct match" in text.lower()
+          if has_matches:
+              return (True, "Context mode: structured response with matches")
+          return (False, "Context mode: missing structured response format")
+      missing = []
+      if not has_title:
+          missing.append("H1 title")
+      if not has_key_points:
+          missing.append("Key Points section")
+      if not has_related:
+          missing.append("Related section")
+      if not has_sources:
+          missing.append("Sources section")
+      if missing:
+          return (False, f"Missing: {', '.join(missing)}")
+      return (True, "All required sections present")
+
+  - name: cross_linking_quality
+    description: |
+      Checks that cross-links are present when annotations indicate they
+      should be, and that back-links are mentioned.
+    check: |
+      text = outputs.get("conversation", "")
+      annotations = outputs.get("annotations", {})
+      if annotations.get("expected_mode") == "context":
+          return (True, "Context mode - cross-link check N/A")
+      expected_links = annotations.get("should_cross_link_to", [])
+      if not expected_links:
+          has_any_link = "[" in text and "](" in text and ".md" in text
+          if has_any_link:
+              return (True, "Contains markdown cross-links")
+          return (True, "No specific cross-links expected")
+      found = []
+      for link in expected_links:
+          slug = link.replace(".md", "")
+          if slug in text or link in text:
+              found.append(link)
+      if len(found) == len(expected_links):
+          return (True, f"All expected cross-links found: {found}")
+      missing = set(expected_links) - set(found)
+      return (False, f"Missing cross-links: {missing}")
+
+  - name: duplicate_handling
+    description: |
+      For near-duplicate content, verifies the skill updates an existing
+      page rather than creating a new one.
+    check: |
+      annotations = outputs.get("annotations", {})
+      if not annotations.get("is_near_duplicate"):
+          return (True, "Not a duplicate test case")
+      text = outputs.get("conversation", "").lower()
+      creates_new = "created:" in text and "new page" in text
+      updates_existing = "update" in text or "existing" in text or "added to" in text
+      if creates_new and not updates_existing:
+          return (False, "Created new page instead of updating existing one")
+      if updates_existing:
+          return (True, "Correctly identified and updated existing page")
+      return (False, "Unclear whether duplicate was detected")
+
+  - name: no_prose_walls
+    description: |
+      Checks that wiki page content uses bullet points, not long paragraphs.
+      Wiki pages should be nodes with concise summaries.
+    check: |
+      text = outputs.get("conversation", "")
+      annotations = outputs.get("annotations", {})
+      if annotations.get("expected_mode") == "context":
+          return (True, "Context mode - prose check N/A")
+      lines = text.split("\n")
+      long_paragraphs = [l for l in lines if len(l) > 200 and not l.startswith("#") and not l.startswith("-") and not l.startswith("*")]
+      if len(long_paragraphs) > 2:
+          return (False, f"{len(long_paragraphs)} long prose paragraphs found (wiki pages should use bullets)")
+      return (True, "Content is concise, uses bullet format")
+
+  - name: overall_quality
+    description: |
+      LLM judge assessing the overall quality of the wiki ingestion or
+      context retrieval, including accuracy, completeness, and adherence
+      to wiki-style formatting.
+    prompt: |
+      You are evaluating a "second brain wiki" skill that either ingests
+      content into a personal wiki or retrieves context from it.
+
+      The skill received this input and produced the following output:
+
+      {{ conversation }}
+
+      Annotations (expected outcomes for this test case):
+      {{ annotations }}
+
+      Evaluate on a 1-5 scale:
+
+      Score 1: Fundamentally broken - no wiki page created, wrong mode
+        detected, or output is incoherent
+      Score 2: Partially works but major issues - missing required sections,
+        no cross-links when they should exist, verbose prose instead of bullets
+      Score 3: Functional but mediocre - has the right structure but weak
+        cross-links, generic summaries, or missed connections
+      Score 4: Good quality - proper structure, meaningful cross-links,
+        concise bullets, log updated, connections identified
+      Score 5: Excellent - all of score 4 plus insightful cross-links that
+        surface non-obvious connections, perfect bullet density, clean slugs
+
+      Return your score as a single integer (1-5) on the first line,
+      followed by a brief justification.
+
+thresholds:
+  budget_check:
+    min_pass_rate: 1.0
+  wiki_page_structure:
+    min_pass_rate: 0.8
+  cross_linking_quality:
+    min_pass_rate: 0.8
+  duplicate_handling:
+    min_pass_rate: 1.0
+  no_prose_walls:
+    min_pass_rate: 1.0
+  overall_quality:
+    min_mean: 3.5

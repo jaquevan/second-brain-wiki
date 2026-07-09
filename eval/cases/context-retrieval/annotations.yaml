@@ -1,0 +1,8 @@
+expected_mode: context
+should_find_direct_matches:
+  - "nielsens-heuristics.md"
+  - "evaluator-super-agent.md"
+should_follow_cross_links: true
+should_identify_knowledge_gaps: true
+should_not_modify_wiki: true
+output_format: structured_context
