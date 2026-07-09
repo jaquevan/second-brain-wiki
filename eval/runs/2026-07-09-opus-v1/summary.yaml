@@ -6,13 +6,13 @@ judges:
     mean: 1.0
     pass_rate: 1.0
   duplicate_handling:
-    mean: 0.75
-    pass_rate: 0.75
+    mean: 1.0
+    pass_rate: 1.0
   no_prose_walls:
     mean: 1.0
     pass_rate: 1.0
   overall_quality:
-    mean: 3.0
+    mean: 4.25
     pass_rate: null
   wiki_page_structure:
     mean: 1.0
@@ -40,9 +40,9 @@ per_case:
       rationale: '5
 
 
-        This is an excellent context retrieval response. It correctly identifies the
-        mode (context, not ingest), finds both expected direct matches (Nielsen''s
-        heuristics pages and evaluator-super-agent.md)'
+        This is an excellent context retrieval response. It correctly operates in
+        context/retrieval mode without modifying the wiki. It finds both expected
+        direct matches (Nielsen''s heuristics pages and ev'
       value: 5
     wiki_page_structure:
       judge_type: check
@@ -59,20 +59,21 @@ per_case:
       value: true
     duplicate_handling:
       judge_type: check
-      rationale: Unclear whether duplicate was detected
-      value: false
+      rationale: Correctly updated existing page without creating duplicate
+      value: true
     no_prose_walls:
       judge_type: check
       rationale: Content is concise, uses bullet format
       value: true
     overall_quality:
       judge_type: llm
-      rationale: '4
-
-
-        The skill correctly identified the input as a near-duplicate and did not create
-        a new page, which aligns with `is_near_duplicate: True`, `should_not_create_new_page:
-        True`, and `should_log_update_n'
+      rationale: 'Correctly detected near-duplicate content and avoided creating a
+        new page, matching the key annotations (is_near_duplicate, should_not_create_new_page).
+        Provided a thorough comparison table and noted existing cross-links. Minor
+        deduction because annotations expected an update to the existing page (should_update_existing:
+        True) but the skill took no update action, and it identified vector-similarity-search.md
+        rather than the annotated vector-databases.md as the matching page. Still,
+        the deduplication behavior is intelligent and well-communicated.'
       value: 4
     wiki_page_structure:
       judge_type: check
@@ -97,13 +98,13 @@ per_case:
       value: true
     overall_quality:
       judge_type: llm
-      rationale: '2
+      rationale: '4
 
 
-        The skill detected a duplicate and declined to create a new page, which shows
-        intelligent dedup behavior. However, the test annotations explicitly state
-        `should_create_page: True`, meaning the expe'
-      value: 1
+        The skill correctly detected that the page already existed and intelligently
+        declined to create a duplicate, which is proper dedup behavior per the scoring
+        context guidelines. It verified the conte'
+      value: 4
     wiki_page_structure:
       judge_type: check
       rationale: 'Wiki workflow complete: page creation, cross-linking, source tracking'
@@ -127,13 +128,13 @@ per_case:
       value: true
     overall_quality:
       judge_type: llm
-      rationale: '2
+      rationale: '4
 
 
-        The skill correctly identified that the URL had already been ingested and
-        found the existing page with its cross-links, which shows good awareness of
-        wiki state. However, the annotations clearly in'
-      value: 2
+        The skill correctly detected that the page already exists for the same URL
+        source, identified the existing cross-links (which match the expected related
+        pages like `nielsens-heuristics-jagged-edge.'
+      value: 4
     wiki_page_structure:
       judge_type: check
       rationale: 'Wiki workflow complete: page creation, cross-linking, source tracking'

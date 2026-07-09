@@ -9,10 +9,10 @@ judges:
     mean: 1.0
     pass_rate: 1.0
   no_prose_walls:
-    mean: 0.7142857142857143
-    pass_rate: 0.7142857142857143
+    mean: 1.0
+    pass_rate: 1.0
   overall_quality:
-    mean: 3.857142857142857
+    mean: 4.428571428571429
     pass_rate: null
   wiki_page_structure:
     mean: 1.0
@@ -40,9 +40,9 @@ per_case:
       rationale: '5
 
 
-        The output excels across every evaluation criterion. It correctly operates
-        in context/retrieval mode without modifying the wiki. It finds direct matches
-        including the expected pages (Nielsen''s heur'
+        This is an excellent retrieval response. It correctly identifies the context/retrieval
+        mode, finds the expected direct matches (nielsens-heuristics and evaluator-super-agent
+        pages), follows cross-l'
       value: 5
     wiki_page_structure:
       judge_type: check
@@ -67,13 +67,13 @@ per_case:
       value: true
     overall_quality:
       judge_type: llm
-      rationale: '2
+      rationale: '4
 
 
-        The skill correctly identified a near-duplicate situation and correctly did
-        not create a new page, which aligns with `should_not_create_new_page: True`
-        and `is_near_duplicate: True`. However, the a'
-      value: 2
+        The skill correctly identified the near-duplicate situation and refused to
+        create a new page, which aligns with the expected behaviors `should_not_create_new_page:
+        True` and `is_near_duplicate: Tru'
+      value: 5
     wiki_page_structure:
       judge_type: check
       rationale: 'Wiki workflow complete: page creation, cross-linking, index/log
@@ -101,10 +101,10 @@ per_case:
       rationale: '4
 
 
-        The skill correctly identified that the page already existed and verified
-        its content rather than creating a duplicate, which is intelligent behavior.
-        It confirmed the page slug contains "2026-07-0'
-      value: 5
+        The skill correctly detected that the page already existed and intelligently
+        declined to create a duplicate, which is proper dedup behavior. It verified
+        the existing content covers all key points f'
+      value: 4
     wiki_page_structure:
       judge_type: check
       rationale: 'Wiki workflow complete: cross-linking, index/log update, source
@@ -129,16 +129,13 @@ per_case:
       value: true
     overall_quality:
       judge_type: llm
-      rationale: '2
+      rationale: '4
 
 
-        The skill detected the correct page slug (`prompt-engineering-best-practices`)
-        and identified relevant cross-links to existing pages, which is positive.
-        However, there are major issues:
-
-
-        1. **No so'
-      value: 1
+        The skill correctly identified that the page `prompt-engineering-best-practices.md`
+        already exists with the same content from the same source, and intelligently
+        declined to create a duplicate. This'
+      value: 3
     wiki_page_structure:
       judge_type: check
       rationale: 'Wiki workflow complete: cross-linking, index/log update, source
@@ -166,9 +163,9 @@ per_case:
       rationale: '4
 
 
-        The skill correctly detected the input as a Slack thread requiring page creation,
-        produced a well-slugged page (`ai-helpers-repo-slack-2026-07-02.md` contains
-        "ai-helpers"), and cross-linked with t'
+        The skill correctly identified this as an ingest task, created a page with
+        an appropriate slug containing "ai-helpers", and performed meaningful cross-linking
+        with two related pages (`ansible-ai-he'
       value: 5
     wiki_page_structure:
       judge_type: check
@@ -190,16 +187,16 @@ per_case:
       value: true
     no_prose_walls:
       judge_type: check
-      rationale: 3 long prose paragraphs found (wiki pages should use bullets)
-      value: false
+      rationale: Content is concise, uses bullet format
+      value: true
     overall_quality:
       judge_type: llm
       rationale: '4
 
 
-        The skill correctly created a new wiki page, fetched the URL content, identified
-        low overlap with the existing `nielsens-heuristics-jagged-edge.md`, cross-linked
-        with multiple relevant pages (inclu'
+        The skill correctly identified this as an ingest task, fetched the URL content
+        (recovering from an initial block), created a new page with appropriate slug
+        (`nielsens-10-usability-heuristics.md`), '
       value: 4
     wiki_page_structure:
       judge_type: check
@@ -221,16 +218,16 @@ per_case:
       value: true
     no_prose_walls:
       judge_type: check
-      rationale: 3 long prose paragraphs found (wiki pages should use bullets)
-      value: false
+      rationale: Content is concise, uses bullet format
+      value: true
     overall_quality:
       judge_type: llm
-      rationale: '4
+      rationale: '5
 
 
-        The skill correctly identified HIGH overlap with existing pages and chose
-        to merge rather than duplicate, which is a smart wiki-management decision.
-        It updated the log, identified the correct page '
+        The skill demonstrated excellent deduplication behavior by detecting HIGH
+        overlap with existing `vector-databases.md` and `vector-similarity-search.md`
+        pages, and intelligently merging only the gen'
       value: 5
     wiki_page_structure:
       judge_type: check
