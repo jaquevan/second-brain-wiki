@@ -1,0 +1,15 @@
+prompt: |
+  Ingest this meeting into my wiki:
+
+  Meeting: Weekly Design Sync
+  Date: 2026-07-01
+  Attendees: Andy Braren, Evan Jaquez, Zack Bodnar
+  Duration: 30 min
+
+  Notes:
+  - Discussed prototype evaluation results from last sprint
+  - Andy shared PatternFly 6 migration timeline: Q3 target
+  - Zack asked about usability testing automation progress
+  - Action item: Evan to demo evaluator super agent next week
+  - Agreed to use Nielsen's heuristics as base rubric
+  - Next meeting: revisit scoring dimensions

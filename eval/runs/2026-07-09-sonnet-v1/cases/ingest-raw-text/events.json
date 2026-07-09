@@ -1,0 +1,2105 @@
+[
+  {
+    "type": "system",
+    "subtype": "hook_started",
+    "timestamp": "2026-07-09T15:38:47.441Z"
+  },
+  {
+    "type": "system",
+    "subtype": "hook_response",
+    "timestamp": "2026-07-09T15:38:47.441Z"
+  },
+  {
+    "type": "system",
+    "subtype": "init",
+    "timestamp": "2026-07-09T15:38:48.276Z",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.132Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.132Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.132Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.133Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.133Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.133Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.133Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.133Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.489Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.489Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.491Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.491Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.492Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.492Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.492Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:50.493Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.222Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.225Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.237Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.241Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.249Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.264Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.280Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.303Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.316Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:52.358Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:38:52.361Z",
+    "_msg_id": "msg_vrtx_01JBMaajYFqTzQGxeqQDy84S"
+  },
+  {
+    "type": "assistant",
+    "text": "I'll ingest this into your wiki. Let me start by reading the config and scanning existing wiki pages.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:38:52.423Z",
+    "_msg_id": "msg_vrtx_01JBMaajYFqTzQGxeqQDy84S"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_019B1MUT16jFtnnaxoHcM6Ld",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v1/cases/ingest-raw-text/.claude/skills/second-brain-wiki/references/config.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:38:53.746Z",
+    "_msg_id": "msg_vrtx_01JBMaajYFqTzQGxeqQDy84S"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_019B1MUT16jFtnnaxoHcM6Ld",
+    "tool_name": "Read",
+    "content": "1\t# Second Brain Wiki Configuration\n2\t\n3\tThis file configures the skill for Evan's environment. Edit paths and\n4\tprojects as your work evolves.\n5\t\n6\t---\n7\t\n8\t## Paths\n9\t\n10\t| Path | Value | Description |\n11\t|------|-------|-------------|\n12\t| Wiki directory | `~/second-brain/wiki/` | Where wiki pages live |\n13\t| Sources directory | `~/second-brain/sources/` | Raw source files stored here |\n14\t| Inbox directory | `~/Desktop/Second Brain Inbox/` | Drop files here for processing |\n15\t\n16\t---\n17\t\n18\t## Active Projects\n19\t\n20\tThese are your current projects and areas of focus. The skill uses these\n21\tto find connections when ingesting new content.\n22\t\n23\t- **evaluator-super-agent** \u2014 automated prototype quality assessment using persona-driven walkthroughs, 7-dimension rubric scoring, actor/evaluator separation\n24\t- **prototype-creator** \u2014 generates clickable prototypes from RFEs, tiered AC classification, Playwright automation\n25\t- **agent-eval-harness** \u2014 framework for evaluating AI skill quality, eval.yaml configs, judges, scoring pipelines\n26\t- **ai-sdlc-pipeline** \u2014 three-phase pipeline: RFE Creator (WHAT) \u2192 Prototype Creator (SHOW) \u2192 Strat Creator (HOW)\n27\t- **my-cursor-claw** \u2014 personal workspace with 20+ skills, MCP connections, notetaking, automations\n28\t- **decision-kit** \u2014 Decision Driven Development toolkit, /strategize, /decide, /journal\n29\t- **automated-usability-testing** \u2014 simulated usability testing tool, persona YAML files, evaluate-flow protocol\n30\t- **archie** \u2014 UX research agent for the RHOAIUX team\n31\t- **rhoai-prototypes** \u2014 RHOAI prototype collection for evaluation\n32\t\n33\t---\n34\t\n35\t## Calendar Integration\n36\t\n37\t| Setting | Value |\n38\t|---------|-------|\n39\t| Calendar name | `primary` |\n40\t| Auto-ingest meetings | `true` |\n41\t| Minimum meeting duration | `15 min` |\n42\t| Require notes/transcript | `true` |\n43\t| Skip recurring without notes | `true` |\n44\t\n45\tEvents that qualify for auto-ingestion:\n46\t- Have attached meeting notes or a description with substance (not just \"Weekly sync\")\n47\t- Have a linked Google Doc (agenda, transcript, action items)\n48\t- Duration is 15+ minutes\n49\t- Are not recurring meetings that had no notes added\n50\t\n51\t---\n52\t\n53\t## MCP Integrations\n54\t\n55\t| Integration | MCP Server | Used for |\n56\t|-------------|-----------|----------|\n57\t| Google Docs | `user-google-workspace` | Extracting doc content |\n58\t| Google Calendar | `user-google-workspace` | Meeting ingestion |\n59\t| Slack | `project-0-my-cursor-claw-slack` | Channel message ingestion |\n60\t\n61\t---\n62\t\n63\t## Cross-Link Priority\n64\t\n65\tWhen multiple connections exist, prioritize these categories (from the\n66\twiki index):\n67\t\n68\t1. **Red Hat AI-SDLC** \u2014 pipeline components, RFE/prototype/strat flow\n69\t2. **Evaluation & Quality** \u2014 rubrics, heuristics, eval harness\n70\t3. **Tools & Skills** \u2014 decision kit, cursor claw, skill overlays\n71\t4. **Meetings** \u2014 meeting notes with action items and decisions\n72\t5. **Standups** \u2014 sprint progress and blockers\n73\t6. **Session Logs** \u2014 what was built and shipped\n74\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:38:53.756Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_013N7dFKtYoQQUKDgrqyrbNg",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v1/cases/ingest-raw-text/.claude/skills/second-brain-wiki/references/wiki-page-template.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:38:54.326Z",
+    "_msg_id": "msg_vrtx_01JBMaajYFqTzQGxeqQDy84S"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_013N7dFKtYoQQUKDgrqyrbNg",
+    "tool_name": "Read",
+    "content": "1\t# Wiki Page Template\n2\t\n3\tUse this template when creating new wiki pages. Copy the structure,\n4\tfill in the bracketed fields.\n5\t\n6\t---\n7\t\n8\t## Template\n9\t\n10\t```markdown\n11\t# <Page Title>\n12\t\n13\t<One-sentence summary of what this page covers.>\n14\t\n15\t## Key Points\n16\t\n17\t- <Bullet point 1: a concrete fact, concept, or takeaway>\n18\t- <Bullet point 2>\n19\t- <Bullet point 3>\n20\t- <Additional bullets as needed, max 10>\n21\t\n22\t## Related\n23\t\n24\t- [<Related Page Title>](<related-slug>.md) \u2014 <one-line reason for connection>\n25\t- [<Another Related Page>](<slug>.md) \u2014 <connection reason>\n26\t\n27\t## Sources\n28\t\n29\t- <path/to/source/file or URL where this came from>\n30\t- Ingested: <YYYY-MM-DD>\n31\t```\n32\t\n33\t---\n34\t\n35\t## Good Example\n36\t\n37\t```markdown\n38\t# Retrieval Augmented Generation\n39\t\n40\tTechnique that grounds LLM responses in retrieved documents rather than\n41\trelying solely on training data.\n42\t\n43\t## Key Points\n44\t\n45\t- Combines a retriever (vector search) with a generator (LLM)\n46\t- Reduces hallucination by providing source documents as context\n47\t- Trade-off: retrieval quality limits generation quality\n48\t- Common stack: embeddings \u2192 vector DB \u2192 reranker \u2192 LLM prompt\n49\t- Works best when source corpus is well-chunked and up-to-date\n50\t\n51\t## Related\n52\t\n53\t- [Vector Databases](vector-databases.md) \u2014 the retrieval layer in RAG pipelines\n54\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 uses embedding similarity for judge calibration\n55\t\n56\t## Sources\n57\t\n58\t- ~/second-brain/sources/what-is-rag.md\n59\t- Ingested: 2026-06-10\n60\t```\n61\t\n62\t---\n63\t\n64\t## Bad Example\n65\t\n66\t```markdown\n67\t# RAG\n68\t\n69\tRetrieval Augmented Generation (RAG) is a technique in artificial intelligence\n70\tthat combines information retrieval with text generation. It was first proposed\n71\tby Lewis et al. in 2020. The basic idea is that instead of relying solely on\n72\twhat a language model learned during training, you can augment it with relevant\n73\tdocuments retrieved at inference time.\n74\t\n75\tThis approach has several advantages. First, it reduces hallucination because\n76\tthe model can reference actual documents. Second, it allows the model to access\n77\tup-to-date information that wasn't in its training data. Third, it provides\n78\ttransparency because you can trace responses back to source documents.\n79\t\n80\tThere are several implementations of RAG available today...\n81\t```\n82\t\n83\t**Why it's bad:**\n84\t- Reads like a Wikipedia article, not a wiki node\n85\t- No bullet summaries (walls of prose)\n86\t- No Related section (isolated page, no connections)\n87\t- No Sources section (where did this come from?)\n88\t- Title is an acronym without expansion\n89\t- Contains filler (\"There are several...\" \"This approach has...\")\n90\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:38:54.332Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:55.899Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.247Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.247Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.247Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.247Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.248Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.248Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.248Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.732Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.732Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:56.733Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:38:56.739Z",
+    "_msg_id": "msg_vrtx_01J38wn5VSx5qhXkZ1oxF5Pb"
+  },
+  {
+    "type": "assistant",
+    "text": "Now let me scan the existing wiki pages.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:38:56.741Z",
+    "_msg_id": "msg_vrtx_01J38wn5VSx5qhXkZ1oxF5Pb"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_01P3D3dDrSbeu9bnNEJT6Std",
+        "input": {
+          "command": "ls ~/second-brain/wiki/ 2>/dev/null || echo \"Wiki directory not found or empty\""
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:38:57.414Z",
+    "_msg_id": "msg_vrtx_01J38wn5VSx5qhXkZ1oxF5Pb"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01P3D3dDrSbeu9bnNEJT6Std",
+    "tool_name": "Bash",
+    "content": "agent-eval-harness.md\nai-first-sync-2026-06-25.md\nai-sdlc-pipeline.md\nandy-evan-2026-06-22.md\nandy-evan-2026-06-29.md\nandy-evan-eval-review-2026-06-16.md\nansible-ai-helpers-strategy-2026-06-17.md\ncursor-work-2026-06-16.md\ndecision-kit.md\nevaluator-super-agent.md\nindex.md\nlog.md\nmidpoint-checkin-2026-06-30.md\nmy-cursor-claw.md\nnielsens-heuristics-jagged-edge.md\noutcome-tiger-team.md\nprototype-creator-demo-may14.md\nprototype-creator.md\nredhat-ai-first-lessons.md\nretrieval-augmented-generation.md\nrfe-creator.md\nrh-ai-first-ux-2026-06-18.md\nrh-ai-first-ux-2026-06-25.md\nsession-log-2026-06-15.md\nsession-log-2026-06-16.md\nskill-overlays.md\nstandup-2026-06-22.md\nstandup-2026-06-29.md\nux-quality-rubric.md\nvector-databases.md\nvector-similarity-search.md\nweekly-design-sync-2026-07-01.md\nwg-uxd-efficiency-2026-06-29.md\nzack-evan-2026-06-24.md",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:38:57.670Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:58.741Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.097Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.097Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.101Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.102Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.102Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.570Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:38:59.572Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:38:59.573Z",
+    "_msg_id": "msg_vrtx_01UqyMYUFGkkY5LgGBsSEYNj"
+  },
+  {
+    "type": "assistant",
+    "text": "Let me scan the most relevant existing pages for cross-linking opportunities.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:00.034Z",
+    "_msg_id": "msg_vrtx_01UqyMYUFGkkY5LgGBsSEYNj"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_01TRtHRaoH2khgKBdrcdLXfL",
+        "input": {
+          "command": "for f in ~/second-brain/wiki/*.md; do echo \"=== $(basename $f) ===\"; head -3 \"$f\"; echo; done"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:00.274Z",
+    "_msg_id": "msg_vrtx_01UqyMYUFGkkY5LgGBsSEYNj"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01TRtHRaoH2khgKBdrcdLXfL",
+    "tool_name": "Bash",
+    "content": "=== agent-eval-harness.md ===\n# Agent Eval Harness\n\nA framework for evaluating AI agent skill quality through automated testing, judge scoring, and iterative optimization.\n\n=== ai-first-sync-2026-06-25.md ===\n# AI-First Sync -- June 25, 2026\n\nRed Hat AI UXD AI-First Sync. Evan's prototype evaluator presentation and 3.6 branch strategy.\n\n=== ai-sdlc-pipeline.md ===\n# AI-SDLC Pipeline\n\nRed Hat's AI-assisted Software Development Life Cycle \u2014 a three-phase pipeline where each phase has its own \"creator\" tool.\n\n=== andy-evan-2026-06-22.md ===\n# Andy/Evan Meeting -- June 22, 2026\n\n1:1 review of evaluation system progress and prototype creator integration strategy.\n\n=== andy-evan-2026-06-29.md ===\n# Andy/Evan Meeting -- June 29, 2026\n\n1:1 covering prototype evaluator progress, reporting infrastructure, repository strategy, and future directions.\n\n=== andy-evan-eval-review-2026-06-16.md ===\n# Andy/Evan Evaluation Review \u2014 June 16, 2026\n\nMeeting with Andy Braren reviewing the prototype evaluation system. Three key decisions shaped the direction of the evaluator super agent.\n\n=== ansible-ai-helpers-strategy-2026-06-17.md ===\n# Ansible AI Helpers Strategy \u2014 2026-06-17\n\nStrategy session on integrating the UXD AI Helpers repo with Ansible's Carbonite harness. First major external consumer of the centralized skill distribution model.\n\n=== cursor-work-2026-06-16.md ===\n# Cursor Agent Work \u2014 June 16, 2026\n\nA daily record of all agent work done across 4 Cursor sessions on this date. Focused on productivity infrastructure: skills that make other skills better, zero-friction workflows, and manager-oriented accountability.\n\n=== decision-kit.md ===\n# Decision Kit\n\nA toolkit for Decision Driven Development. AI does the busywork around your decisions \u2014 you make the calls.\n\n=== evaluator-super-agent.md ===\n# Evaluator Super Agent\n\nEvan's primary assignment: build an evaluation agent that automates prototype quality assessment within the [Prototype Creator](prototype-creator.md) pipeline.\n\n=== index.md ===\n# Wiki Index\n\nA catalog of all wiki pages, organized by category.\n\n=== log.md ===\n# Change Log\n\nA chronological record of all wiki operations.\n\n=== midpoint-checkin-2026-06-30.md ===\n# Midpoint Check-in with Zack -- June 30, 2026\n\nHalfway internship check-in focused on growth, energy management, strengths/opportunities feedback, and career direction. Not a work-progress meeting.\n\n=== my-cursor-claw.md ===\n# My Cursor Claw\n\nPersonal skill development workspace built during the Day of Learning Agent Skills Workshop (2026-06-05). Contains 20+ custom Cursor skills, 5 MCP server connections, and automated daily review infrastructure.\n\n=== nielsens-heuristics-jagged-edge.md ===\n# Nielsen's Heuristics & The Jagged Edge\n\nFirst hands-on internship assignment: apply Nielsen Norman's 10 Usability Heuristics to Kubernetes-style interfaces across multiple AI tools and compare their analysis quality.\n\n=== outcome-tiger-team.md ===\n# Outcome Tiger Team\n\nProposal by Andy Braren to form a cross-functional tiger team focused on the critical step *before* the [AI-SDLC Pipeline](ai-sdlc-pipeline.md): creating, prioritizing, and visualizing **outcomes** \u2014 the directional goals that determine which features get prioritized and why.\n\n=== prototype-creator-demo-may14.md ===\n# Prototype Creator Demo \u2014 May 14, 2026\n\nAndy Braren's recorded walkthrough of prototype-creator for the team, with Beau Morley and Dash Copeland participating. Demonstrates both automated and human-in-the-loop workflows end-to-end.\n\n=== prototype-creator.md ===\n# Prototype Creator\n\nPhase 2 (\"the SHOW\") of Red Hat's [AI-SDLC Pipeline](ai-sdlc-pipeline.md). Takes RFE user stories and produces rapid prototypes that make the proposed experience tangible before engineering commits.\n\n=== redhat-ai-first-lessons.md ===\n# Red Hat AI-First Lessons\n\nJeremy Eder's (Distinguished Engineer, 16 years at Red Hat) presentation on lessons from Red Hat Engineering on AI-first software development. 38-slide deck covering the agentic SDLC, issue-to-PR bots, evaluation infrastructure, and organizational change.\n\n=== retrieval-augmented-generation.md ===\n# Retrieval-Augmented Generation\n\nRetrieval-Augmented Generation (RAG) is a technique that enhances LLM responses by retrieving relevant documents from an external knowledge base before generating an answer. Instead of relying solely on the model's training data, RAG grounds responses in real, up-to-date documents.\n\n=== rfe-creator.md ===\n# RFE Creator\n\nPhase 1 (\"the WHAT\") of Red Hat's [AI-SDLC Pipeline](ai-sdlc-pipeline.md). Claude Code skills for creating, reviewing, and submitting RFEs (Requests for Enhancement) to the RHAIRFE Jira project.\n\n=== rh-ai-first-ux-2026-06-18.md ===\n# RH AI-First UX \u2014 2026-06-18\n\nWeekly team meeting for the Red Hat AI-first UX team. Key theme: **tool evaluation, prototype infrastructure unlocks, and formalizing project management structure**.\n\n=== rh-ai-first-ux-2026-06-25.md ===\n# RH AI-First UX -- June 25, 2026\n\nWeekly AI-first UX team meeting covering Outcome Creator, testing strategy, and infrastructure alignment.\n\n=== session-log-2026-06-15.md ===\n# Session Log \u2014 2026-06-15\n\n**Tags:** #daily-log #2026-06-15 #skills #canvas #second-brain #prototype-creator\n\n=== session-log-2026-06-16.md ===\n# Session Log \u2014 2026-06-16\n\n**Signal:** 2 important items, 0 stale carry-forwards\n\n=== skill-overlays.md ===\n# Skill Overlays\n\nLLM-generated, project-specific context files that sit on top of general-purpose skills. Instead of re-inferring a project's structure on every run, you pre-generate a dense context layer capturing architecture, naming conventions, patterns, and implicit standards.\n\n=== standup-2026-06-22.md ===\n# Standup -- June 22, 2026\n\nTeam standup for Future Sustainability & E2E. Sprint capacity adjustments and customer engagement strategy.\n\n=== standup-2026-06-29.md ===\n# Standup -- June 29, 2026\n\nTeam standup for Future Sustainability & E2E. Usability testing updates, UX debt prioritization, and research tooling.\n\n=== ux-quality-rubric.md ===\n# UX Quality Rubric\n\nThe scoring system used by [Prototype Creator](prototype-creator.md) to evaluate generated prototypes. Scored by a restricted `prototype-scorer` agent (no shell, no network, no MCP).\n\n=== vector-databases.md ===\n# Vector Databases\n\nA vector database stores data as high-dimensional vectors (embeddings) and enables fast similarity search. They are a key component in [RAG](retrieval-augmented-generation.md) pipelines, recommendation systems, and semantic search.\n\n=== vector-similarity-search.md ===\n# Vector Similarity Search\n\nCore technique for finding semantically similar content using vector embeddings \u2014 the engine behind modern search, recommendations, and deduplication.\n\n=== weekly-design-sync-2026-07-01.md ===\n# Weekly Design Sync \u2014 July 1, 2026\n\nMeeting with Andy Braren, Evan Jaquez, and Zack Bodnar covering evaluator demo prep, PatternFly 6 migration, and rubric methodology.\n\n=== wg-uxd-efficiency-2026-06-29.md ===\n# WG: UXD Efficiency & AI Enablement -- June 29, 2026\n\nWorking group meeting on AI helpers repository strategy, productivity skills, and cost management.\n\n=== zack-evan-2026-06-24.md ===\n# Zack/Evan Meeting -- June 24, 2026\n\n1:1 covering Jira standardization, sprint planning methodology, and AI skill architecture strategy.",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:00.737Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.131Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.460Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.461Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.461Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.465Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.471Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.479Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.479Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.479Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.865Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.879Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.879Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.879Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.879Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.880Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.880Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:02.880Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.240Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.240Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.243Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.243Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.243Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.243Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.244Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.244Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.841Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.842Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.842Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.842Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.856Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.864Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.864Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:03.864Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.094Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.095Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.095Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.095Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.547Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.547Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.547Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.551Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.557Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.565Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.570Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.578Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.917Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.918Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.918Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.925Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.931Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.937Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.941Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:04.943Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:05.321Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:05.322Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:09.817Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:09.853Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:09.992Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:09.992Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:09.999Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.028Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.064Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.128Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.161Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.192Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.234Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.313Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.352Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.399Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.518Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.518Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.573Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.595Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.654Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.686Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.716Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.753Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.789Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.826Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.865Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.899Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:10.943Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.043Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.043Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.043Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.120Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.423Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.566Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.570Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.627Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:11.762Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:11.773Z",
+    "_msg_id": "msg_vrtx_01WGVmhpu3Y2e8F7XBM6x3gn"
+  },
+  {
+    "type": "assistant",
+    "text": "No existing prompt engineering page found. Let me check the index and read the most relevant pages for cross-linking before creating the new page.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:11.968Z",
+    "_msg_id": "msg_vrtx_01WGVmhpu3Y2e8F7XBM6x3gn"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01Grh11ReP4JD8BEnuY6pm6D",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/index.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:12.247Z",
+    "_msg_id": "msg_vrtx_01WGVmhpu3Y2e8F7XBM6x3gn"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01Grh11ReP4JD8BEnuY6pm6D",
+    "tool_name": "Read",
+    "content": "1\t# Wiki Index\n2\t\n3\tA catalog of all wiki pages, organized by category.\n4\t\n5\t## Red Hat AI-SDLC\n6\t\n7\t- [Red Hat AI-First Lessons](redhat-ai-first-lessons.md) \u2014 Jeremy Eder's presentation on agentic SDLC, issue-to-PR bots, eval infrastructure, AgentReady, and culture shifts\n8\t- [Outcome Tiger Team](outcome-tiger-team.md) \u2014 proposal to formalize outcomes as the upstream step feeding the entire pipeline\n9\t- [AI-SDLC Pipeline](ai-sdlc-pipeline.md) \u2014 the three-phase pipeline (WHAT \u2192 SHOW \u2192 HOW)\n10\t- [RFE Creator](rfe-creator.md) \u2014 Phase 1: creates and assesses RFEs in Jira\n11\t- [Prototype Creator](prototype-creator.md) \u2014 Phase 2: generates clickable prototypes from RFEs\n12\t- [Prototype Creator Demo \u2014 May 14](prototype-creator-demo-may14.md) \u2014 full walkthrough of automated + human-in-the-loop workflows (Andy, Beau, Dash)\n13\t- [UX Quality Rubric](ux-quality-rubric.md) \u2014 4-dimension scoring system for prototypes\n14\t\n15\t## Machine Learning & AI\n16\t\n17\t- [Vector Similarity Search](vector-similarity-search.md) \u2014 ANN algorithms (HNSW, IVF) for finding semantically similar content via embeddings\n18\t- [Vector Databases](vector-databases.md) \u2014 specialized stores for embedding-based nearest-neighbor search\n19\t- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 grounds LLM responses in retrieved documents via vector search\n20\t\n21\t## Evaluation & Quality\n22\t\n23\t- [Evaluator Super Agent](evaluator-super-agent.md) \u2014 automated prototype quality assessment (in progress)\n24\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 framework for evaluating AI skill quality\n25\t- [Nielsen's Heuristics & The Jagged Edge](nielsens-heuristics-jagged-edge.md) \u2014 AI model comparison using usability heuristics\n26\t\n27\t## Tools & Skills\n28\t\n29\t- [Decision Kit](decision-kit.md) \u2014 Decision Driven Development toolkit\n30\t- [My Cursor Claw](my-cursor-claw.md) \u2014 personal workspace with 20+ skills, 5 MCP connections, and automated daily review\n31\t- [Skill Overlays](skill-overlays.md) \u2014 LLM-generated project-specific context files that improve agent accuracy\n32\t\n33\t## Daily Work Logs\n34\t\n35\t- [Cursor Work \u2014 2026-06-16](cursor-work-2026-06-16.md) \u2014 trend-scan, critique, humanize-text, doc-sync, superpowers skills; GitHub README; second brain smart check-ins\n36\t\n37\t## Meetings\n38\t\n39\t- [Ansible AI Helpers Strategy \u2014 2026-06-17](ansible-ai-helpers-strategy-2026-06-17.md) \u2014 heuristic eval pilot, centralized repo distribution via MRs, June 30 Ansible leadership pitch\n40\t- [RH AI-First UX \u2014 2026-06-18](rh-ai-first-ux-2026-06-18.md) \u2014 Fable AI impressions, GitLab pages fix, prototype-evaluate demo, Outcome Creator project plan, Jira migration\n41\t- [Andy/Evan Eval Review \u2014 2026-06-16](andy-evan-eval-review-2026-06-16.md) \u2014 outcomes grounding, super evaluator architecture, overlay approach confirmed\n42\t- [Andy/Evan Meeting \u2014 2026-06-22](andy-evan-2026-06-22.md) \u2014 eval scores improved (11\u219219), flagging system, Prototype Creator integration cost strategy\n43\t- [Zack/Evan Meeting \u2014 2026-06-24](zack-evan-2026-06-24.md) \u2014 Jira standardization, story points, skill architecture (context window limits)\n44\t- [AI-First Sync \u2014 2026-06-25](ai-first-sync-2026-06-25.md) \u2014 Evan's prototype evaluator presentation, 3.6 branch, readiness check discussion\n45\t- [RH AI-First UX \u2014 2026-06-25](rh-ai-first-ux-2026-06-25.md) \u2014 Outcome Creator JTBD integration, testing fragmentation, unified testing proposal\n46\t- [WG: UXD Efficiency \u2014 2026-06-29](wg-uxd-efficiency-2026-06-29.md) \u2014 AI helpers repo strategy, Archie rebranding, productivity skills repo, AI cost management\n47\t- [Andy/Evan Meeting \u2014 2026-06-29](andy-evan-2026-06-29.md) \u2014 evaluator progress, report UX, UXD PC7 cluster, sub-skill structure, Leaderboard of Pain\n48\t- [Midpoint Check-in \u2014 2026-06-30](midpoint-checkin-2026-06-30.md) \u2014 Zack's strengths/opportunities feedback, energy management framework, career direction, report-as-product challenge\n49\t- [Weekly Design Sync \u2014 2026-07-01](weekly-design-sync-2026-07-01.md) \u2014 evaluator demo prep, PatternFly 6 Q3 migration, Nielsen's heuristics as base rubric, scoring dimensions to revisit\n50\t\n51\t## Standups\n52\t\n53\t- [Standup \u2014 2026-06-22](standup-2026-06-22.md) \u2014 sprint capacity adjustments, customer engagement strategy, Archie CLI update\n54\t- [Standup \u2014 2026-06-29](standup-2026-06-29.md) \u2014 usability testing RFC approved, UX debt prioritization for 3.5, research tooling updates\n55\t\n56\t## Session Logs\n57\t\n58\t- [Session Log \u2014 2026-06-16](session-log-2026-06-16.md) \u2014 shipped second brain smart check-ins (importance, carry-forward, auto-resolve); created critique, humanize-text, doc-sync, superpowers, trend-scan skills; GitHub README redesign\n59\t- [Session Log \u2014 2026-06-15](session-log-2026-06-15.md) \u2014 built work-context, meeting-prep, standup-writer, session-log skills; sprint-manager skill; prototype-evaluate Slack response; progress doc update\n60\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:12.251Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01LgPwkDCv8RpBW2XLB5u6dE",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/agent-eval-harness.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:12.349Z",
+    "_msg_id": "msg_vrtx_01WGVmhpu3Y2e8F7XBM6x3gn"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01LgPwkDCv8RpBW2XLB5u6dE",
+    "tool_name": "Read",
+    "content": "1\t# Agent Eval Harness\n2\t\n3\tA framework for evaluating AI agent skill quality through automated testing, judge scoring, and iterative optimization.\n4\t\n5\t## How It Works\n6\t\n7\t1. **eval.yaml** \u2014 defines execution mode, dataset schema, output descriptions, judges, models, and thresholds\n8\t2. **Dataset** \u2014 test cases with realistic inputs for the skill\n9\t3. **Judges** \u2014 automated scorers that rate skill outputs against criteria\n10\t4. **Run** \u2014 executes the skill against test cases, scores with judges, reports results\n11\t5. **Optimize** \u2014 identifies failures, edits SKILL.md, re-runs to verify, checks for regressions\n12\t\n13\t## Key Skills (from the harness)\n14\t\n15\t- `/eval-analyze` \u2014 examine a skill and generate eval.yaml\n16\t- `/eval-dataset` \u2014 generate test cases for a skill\n17\t- `/eval-run` \u2014 execute evaluation against test cases\n18\t- `/eval-optimize` \u2014 automated improvement loop\n19\t- `/eval-review` \u2014 interactive human review of results\n20\t\n21\t## The Optimize Loop\n22\t\n23\t```\n24\tRun eval \u2192 Identify judge failures \u2192 Read traces \u2192 Edit SKILL.md \u2192 Re-run \u2192 Verify\n25\t```\n26\t\n27\tThis is directly applicable to the [Evaluator Super Agent](evaluator-super-agent.md) work \u2014 the same pattern of rubric-based scoring, automated iteration, and quality gates.\n28\t\n29\t## MLflow Integration\n30\t\n31\tResults can be logged to MLflow for tracking, dataset syncing, and trace-level feedback.\n32\t\n33\t## Related\n34\t\n35\t- [Prototype Creator](prototype-creator.md) \u2014 uses rubric-based scoring for prototypes\n36\t- [UX Quality Rubric](ux-quality-rubric.md) \u2014 the 4-dimension scoring system\n37\t- [My Cursor Claw](my-cursor-claw.md) \u2014 includes run-evals skill\n38\t- [Evaluator Super Agent](evaluator-super-agent.md) \u2014 applies eval patterns to prototype evaluation\n39\t- [Red Hat AI-First Lessons](redhat-ai-first-lessons.md) \u2014 Jeremy Eder's presentation referencing EvalHub, Harbor, MLflow, and the harness\n40\t- [Ansible AI Helpers Strategy \u2014 2026-06-17](ansible-ai-helpers-strategy-2026-06-17.md) \u2014 eval patterns relevant to measuring heuristic eval pilot results\n41\t- [Skill Overlays](skill-overlays.md) \u2014 overlays improve agent accuracy, directly relevant to eval quality\n42\t- [WG: UXD Efficiency \u2014 June 29](wg-uxd-efficiency-2026-06-29.md) \u2014 token efficiency and cost management for eval runs\n43\t\n44\t## Sources\n45\t\n46\t- sources/2026-06-04-agent-eval-harness-overview.html\n47\t- opendatahub-io agent-eval-harness skills (installed as plugins)\n48\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:12.352Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.111Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.333Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.352Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.376Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.386Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.401Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.419Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.435Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.448Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.538Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.560Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.570Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.591Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.611Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.625Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.641Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.653Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.879Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.899Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.928Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.941Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.958Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:16.993Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.017Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.042Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.334Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.334Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.341Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.352Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.362Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.385Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.408Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.411Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.719Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.734Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.742Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.755Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.858Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.858Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.858Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:17.859Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.146Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.151Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.159Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.162Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.169Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.172Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.180Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.190Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:18.527Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.207Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.233Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.258Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.297Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.327Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.347Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.374Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.402Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.427Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.532Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.532Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.533Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.534Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.561Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.599Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.613Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.639Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.677Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.695Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.721Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.756Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.775Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.799Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.827Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.852Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.922Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.924Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.959Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:21.962Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.053Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.053Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.179Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.204Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.212Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.215Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.220Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.225Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:22.234Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:24.152Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:24.153Z",
+    "_msg_id": "msg_vrtx_01Kuu4do3ESY4FN86A7Ca4Ky"
+  },
+  {
+    "type": "assistant",
+    "text": "Let me read a couple more pages before writing.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:24.336Z",
+    "_msg_id": "msg_vrtx_01Kuu4do3ESY4FN86A7Ca4Ky"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01KYpRVMkP5c74hufggpWi4g",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/skill-overlays.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:24.742Z",
+    "_msg_id": "msg_vrtx_01Kuu4do3ESY4FN86A7Ca4Ky"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01KYpRVMkP5c74hufggpWi4g",
+    "tool_name": "Read",
+    "content": "1\t# Skill Overlays\n2\t\n3\tLLM-generated, project-specific context files that sit on top of general-purpose skills. Instead of re-inferring a project's structure on every run, you pre-generate a dense context layer capturing architecture, naming conventions, patterns, and implicit standards.\n4\t\n5\t## Key Concepts\n6\t\n7\t- An LLM analyzes project metadata (source code, git history, schemas, config files)\n8\t- Generates context files capturing the project's implicit guidelines and conventions\n9\t- Overlay files sit alongside general-purpose skills and provide project-specific grounding\n10\t- The agent loads the overlay as part of its context when working on that project\n11\t- Pattern is language/framework/domain agnostic\n12\t\n13\t## Concrete Example\n14\t\n15\tIn the data products ADLC (Carl Trieloff's org), an MCP server connects to Snowflake and reads metadata for all data products. An LLM generates skill files (one per data product) with specific context about structure, lineage, and naming conventions. Before overlays, the agent was \"assuming certain things\" and making inference errors. After adding overlays, implementation quality \"went drastically cleaner.\"\n16\t\n17\t## Open Questions\n18\t\n19\t- **Dynamic vs. static:** Runtime generation via MCP avoids staleness but adds latency/cost. Checked-in files are fast but drift.\n20\t- **Scale:** How to generate and maintain overlays across hundreds of repos?\n21\t- **Freshness:** How to detect when an overlay is stale enough to regenerate?\n22\t\n23\t## Who Validated It\n24\t\n25\t- Carl Trieloff / Nathan Chandirasegarane's team (data products ADLC). Concept invented Apr 4, 2026, first tested Apr 7.\n26\t- UIE adopting the pattern for harness engineering work.\n27\t\n28\t## Related\n29\t\n30\t- [Evaluator Super Agent](evaluator-super-agent.md) -- overlays are relevant to the team-specific overlay approach for prototype evaluation\n31\t- [Agent Eval Harness](agent-eval-harness.md) -- overlays improve agent accuracy, directly relevant to eval quality\n32\t- [My Cursor Claw](my-cursor-claw.md) -- the claw already uses project-specific context (skills, rules), overlays formalize this pattern\n33\t- [AI-SDLC Pipeline](ai-sdlc-pipeline.md) -- overlays plug into the pipeline as a context engineering technique\n34\t\n35\t## Sources\n36\t\n37\t- ~/Desktop/Second Brain Inbox/skill-overlays.md\n38\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:24.747Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01PqJ9yD2uK5W212rH7HrCEc",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/evaluator-super-agent.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:24.969Z",
+    "_msg_id": "msg_vrtx_01Kuu4do3ESY4FN86A7Ca4Ky"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01PqJ9yD2uK5W212rH7HrCEc",
+    "tool_name": "Read",
+    "content": "1\t# Evaluator Super Agent\n2\t\n3\tEvan's primary assignment: build an evaluation agent that automates prototype quality assessment within the [Prototype Creator](prototype-creator.md) pipeline.\n4\t\n5\t**Status: Shipped.** The evaluator is a 3-phase skill pipeline on branch `evan/prototype-evaluate` at [andybraren/prototype-creator](https://github.com/andybraren/prototype-creator). It has evaluated 18+ STRATs against Jira acceptance criteria with Playwright persona walkthroughs.\n6\t\n7\t## What It Does (current)\n8\t\n9\t| Capability | Source | Status |\n10\t|---|---|---|\n11\t| AC evaluation | Custom Playwright persona journeys against Jira criteria | Shipped |\n12\t| Usability scoring | 7-dimension rubric with persona overlays (Zack Bodnar's framework) | Shipped |\n13\t| Consistency checking | Beau Morley's consistency checker (source + visual mode) | Shipped |\n14\t| Navigation reachability | Playwright verifies pages are clickable from sidebar | Shipped |\n15\t| Human review | Review tab in HTML report with override buttons + CSV writeback | Shipped |\n16\t| Report hosting | GitLab Pages (eval-reports-7ebc0e.pages.redhat.com) | Shipped |\n17\t| Google Sheet sync | Automated pass/fail + usability metrics to tracking sheet | Shipped |\n18\t| Feedback loop | Eval results \u2192 prototype-refine \u2192 re-eval (max 3 iterations) | In progress |\n19\t\n20\t## Architecture (confirmed June 16 with Andy)\n21\t\n22\tEvolved from \"single monolithic super agent\" to a **phased pipeline with overlays**:\n23\t\n24\t```\n25\tPhase 1: prototype-evaluate (extract ACs, RFE, Outcome, personas, journeys)\n26\t    \u2193 writes extract-state.json\n27\tPhase 2: evaluate-journey (Playwright walkthroughs, consistency check)\n28\t    \u2193 writes journey-log.json, screenshots, CSV\n29\tPhase 3: evaluate-usability (7-dimension persona scoring)\n30\t    \u2193 updates journey-log.json\n31\tPhase 4: render-report.js + sync-sheet.js (HTML, CSV, Google Sheet)\n32\t```\n33\t\n34\t**Key design decisions:**\n35\t1. **Outcomes over Strategic Goals** as grounding criteria (Outcomes are consistently written)\n36\t2. **One Playwright pass** \u2014 shared screenshots across usability, consistency, and AC checks\n37\t3. **98% generic + 2% product overlay** (`config/product-overlay.yaml`) \u2014 portable to other products\n38\t4. **Hint mechanism** for dead-end navigation (failure logged but journey continues)\n39\t5. **Human-in-the-loop** \u2014 Review tab for designer input before feedback loop acts\n40\t\n41\t## Research References\n42\t\n43\t- **Avenir-UX** \u2014 autonomous UX evaluation agent using SEQ/SUS + persona framework\n44\t- **UXCascade** \u2014 multi-agent persona simulation with severity-rated issues (S1\u2013S4)\n45\t- GitLab Notes REST API for MR comment posting\n46\t- Danger bot framework for CI-integrated review automation\n47\t\n48\t## How It Connects\n49\t\n50\t```\n51\tJira STRAT (Outcome \u2192 RFE \u2192 STRAT)\n52\t    \u2192 prototype-create (generates code in workspace)\n53\t    \u2192 prototype-evaluate (this agent \u2014 3 phases)\n54\t        \u251c\u2500\u2500 Phase 1: Extract ACs, personas, journeys from Jira\n55\t        \u251c\u2500\u2500 Phase 2: Playwright journeys + consistency check\n56\t        \u251c\u2500\u2500 Phase 3: Usability dimension scoring\n57\t        \u2514\u2500\u2500 Phase 4: Report + Sheet sync\n58\t    \u2192 Human reviews report (override verdicts, add notes)\n59\t    \u2192 prototype-refine (acts on suggestions + human annotations)\n60\t    \u2192 Re-evaluate (loop until PASS or max iterations)\n61\t    \u2192 prototype-submit (MR to GitLab)\n62\t```\n63\t\n64\t## Key Design Inputs from Demo (May 14)\n65\t\n66\tFrom the [Prototype Creator Demo](prototype-creator-demo-may14.md):\n67\t- Consistency checkers should only evaluate what's NEW (CSS class=\"new\" tagging)\n68\t- Even auto-mode should produce decision-kit pages for post-review\n69\t- Evaluator needs outcome-level awareness, not just feature-level\n70\t- Preview URL is the evaluation entry point (load the MR URL, assess in browser context)\n71\t- Token efficiency matters \u2014 scope evaluation to changed areas only\n72\t\n73\t## Related\n74\t\n75\t- [Outcome Tiger Team](outcome-tiger-team.md) \u2014 proposes outcome-level awareness for evaluation, directly extending this agent's scope\n76\t- [Prototype Creator Demo \u2014 May 14](prototype-creator-demo-may14.md) \u2014 walkthrough with design insights for this agent\n77\t- [Prototype Creator](prototype-creator.md) \u2014 the pipeline this plugs into\n78\t- [UX Quality Rubric](ux-quality-rubric.md) \u2014 existing scoring to extend\n79\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 pattern for automated eval loops\n80\t- [Decision Kit](decision-kit.md) \u2014 using /strategize to plan this agent\n81\t- [Nielsen's Heuristics & The Jagged Edge](nielsens-heuristics-jagged-edge.md) \u2014 informs methodology choice\n82\t- [My Cursor Claw](my-cursor-claw.md) \u2014 the workspace where this will be built\n83\t- [Ansible AI Helpers Strategy \u2014 2026-06-17](ansible-ai-helpers-strategy-2026-06-17.md) \u2014 heuristic eval pilot connects to automated evaluation vision\n84\t\n85\t## Updates from June 16, 2026 Review\n86\t\n87\tDecisions made with Andy Braren (see [Andy/Evan Eval Review \u2014 June 16](andy-evan-eval-review-2026-06-16.md)):\n88\t\n89\t- **Architecture confirmed:** Centralized super evaluator, not fragmented skills. One Playwright pass, shared screenshots.\n90\t- **Grounding confirmed:** Outcomes as primary criteria, Strategic Goals excluded for now.\n91\t- **Overlay approach adopted:** 98% generic + 2% product-specific layer. See [GitLab skill-overlays best practice](https://gitlab.cee.redhat.com/global-engineering/wg-agentic-sdlc/-/blob/main/best-practices/skill-overlays.md).\n92\t- **Hint mechanism shipped:** Simulated UX researcher provides next URL on failure, allowing evaluation to continue while logging failure impact.\n93\t- **Screenshot consolidation:** Sub-agents share one set of Playwright screenshots instead of each capturing independently.\n94\t\n95\t- [RH AI-First UX \u2014 2026-06-18](rh-ai-first-ux-2026-06-18.md) \u2014 Evan demoed automated usability testing + PatternFly consistency checker to full team\n96\t- [Andy/Evan Meeting \u2014 June 22](andy-evan-2026-06-22.md) \u2014 eval iteration history, flagging system, Prototype Creator integration strategy\n97\t- [AI-First Sync \u2014 June 25](ai-first-sync-2026-06-25.md) \u2014 Evan's full evaluator presentation to the team, readiness check discussion\n98\t- [RH AI-First UX \u2014 June 25](rh-ai-first-ux-2026-06-25.md) \u2014 testing fragmentation concerns, unified testing proposal\n99\t- [Standup \u2014 June 29](standup-2026-06-29.md) \u2014 2 automated usability testing agents in development\n100\t- [Skill Overlays](skill-overlays.md) \u2014 context engineering technique relevant to team-specific overlays\n101\t- [Andy/Evan Meeting \u2014 June 29](andy-evan-2026-06-29.md) \u2014 findings tab, auto-fix vs report-only modes, X-ray vs blind evaluation, centralized dashboard\n102\t- [Midpoint Check-in \u2014 June 30](midpoint-checkin-2026-06-30.md) \u2014 Zack: \"pioneering work\" combining research + AI + SDLC; report must be immediately actionable for designers\n103\t- [Weekly Design Sync \u2014 July 1](weekly-design-sync-2026-07-01.md) \u2014 Evan to demo evaluator next week; Nielsen's heuristics confirmed as base rubric\n104\t\n105\t## Sources\n106\t\n107\t- [Andy/Evan Eval Review \u2014 June 16](andy-evan-eval-review-2026-06-16.md)\n108\t- Andy/Evan meeting notes \u2014 2026-06-08\n109\t- sources/2026-06-09-prototype-creator-overview.html\n110\t- /strategize session \u2014 2026-06-09 (in progress)\n111\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:24.972Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:28.870Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.167Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.216Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.217Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.228Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.240Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.262Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.273Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.391Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.560Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.581Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.596Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.608Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.624Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.640Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.649Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:29.665Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.020Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.020Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.029Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.041Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.056Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.069Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.086Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.099Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.442Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.442Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.442Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.442Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.442Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.442Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.463Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.483Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.774Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.789Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.813Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.833Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.964Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.964Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.964Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:30.966Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:31.179Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:31.179Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:31.179Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:31.188Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:31.194Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.007Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.068Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.160Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.160Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.164Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.175Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.192Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.205Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.217Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.227Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.233Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.238Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.243Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.253Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.255Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.261Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.356Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.356Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.356Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.356Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.357Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.357Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.390Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.403Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.426Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.459Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.471Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.492Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.520Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.549Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.580Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.684Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:35.684Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:37.093Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:37.112Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:37.126Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:37.135Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:37.154Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:39:37.257Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:37.259Z",
+    "_msg_id": "msg_vrtx_011QU4ErDc8yHttNMDk21ffM"
+  },
+  {
+    "type": "assistant",
+    "text": "I have everything I need. Now I'll save the source, create the wiki page, update back-links in three related pages, and update the index and log \u2014 all in parallel where I can.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:37.459Z",
+    "_msg_id": "msg_vrtx_011QU4ErDc8yHttNMDk21ffM"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Write",
+        "id": "toolu_vrtx_01FqAio7jm7kfDaVMsFiXBGf",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/sources/2026-06-15-prompt-engineering-best-practices.md",
+          "content": "# Prompt Engineering Best Practices\n\nKey techniques for writing effective prompts:\n- Be specific about the output format you want\n- Provide examples of good and bad output\n- Use chain-of-thought for complex reasoning tasks\n- Break multi-step tasks into sequential prompts\n- Include constraints and boundaries explicitly\n\nSource: Internal team discussion, 2026-06-15\n"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:39.729Z",
+    "_msg_id": "msg_vrtx_011QU4ErDc8yHttNMDk21ffM"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01FqAio7jm7kfDaVMsFiXBGf",
+    "tool_name": "Write",
+    "content": "File created successfully at: /Users/ejaquez/second-brain/sources/2026-06-15-prompt-engineering-best-practices.md (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:39.742Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Write",
+        "id": "toolu_vrtx_018vq35MgjjPRF1mqT2TJ7gm",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/prompt-engineering-best-practices.md",
+          "content": "# Prompt Engineering Best Practices\n\nCore techniques for writing effective LLM prompts that produce consistent, high-quality outputs.\n\n## Key Points\n\n- **Specify output format explicitly** \u2014 tell the model what structure you expect (JSON, bullets, table, prose) rather than inferring it\n- **Provide examples of good and bad output** \u2014 few-shot examples anchor the model more reliably than descriptions alone\n- **Use chain-of-thought for complex reasoning** \u2014 instruct the model to reason step-by-step before answering; improves accuracy on multi-hop problems\n- **Break multi-step tasks into sequential prompts** \u2014 a pipeline of focused prompts outperforms one sprawling mega-prompt\n- **Include constraints and boundaries explicitly** \u2014 state what the model should NOT do as clearly as what it should\n\n## Related\n\n- [Agent Eval Harness](agent-eval-harness.md) \u2014 judge prompts are the core of the eval harness; format specs and CoT directly improve scoring accuracy\n- [Skill Overlays](skill-overlays.md) \u2014 overlays are structured prompts with explicit constraints and project-specific examples baked in\n- [Evaluator Super Agent](evaluator-super-agent.md) \u2014 each evaluation phase uses format-controlled output and sequential prompting across phases\n\n## Sources\n\n- ~/second-brain/sources/2026-06-15-prompt-engineering-best-practices.md\n- Ingested: 2026-07-09\n"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:47.848Z",
+    "_msg_id": "msg_vrtx_014AA1EKfqhBKGA593AyhZ4C"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_018vq35MgjjPRF1mqT2TJ7gm",
+    "tool_name": "Write",
+    "content": "File created successfully at: /Users/ejaquez/second-brain/wiki/prompt-engineering-best-practices.md (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:47.853Z"
+  },
+  {
+    "type": "assistant",
+    "text": "Now update the back-links in the three related pages simultaneously.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:39:49.842Z",
+    "_msg_id": "msg_vrtx_01KFkegEpo4q3cX9hXLPZvwg"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_019yht2gZSCCqY4F6BoyVNhs",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/agent-eval-harness.md",
+          "old_string": "- [Skill Overlays](skill-overlays.md) \u2014 overlays improve agent accuracy, directly relevant to eval quality\n- [WG: UXD Efficiency \u2014 June 29](wg-uxd-efficiency-2026-06-29.md) \u2014 token efficiency and cost management for eval runs",
+          "new_string": "- [Skill Overlays](skill-overlays.md) \u2014 overlays improve agent accuracy, directly relevant to eval quality\n- [Prompt Engineering Best Practices](prompt-engineering-best-practices.md) \u2014 judge prompts and SKILL.md are prompt engineering artifacts; format specs and CoT improve scoring reliability\n- [WG: UXD Efficiency \u2014 June 29](wg-uxd-efficiency-2026-06-29.md) \u2014 token efficiency and cost management for eval runs"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:53.189Z",
+    "_msg_id": "msg_vrtx_01KFkegEpo4q3cX9hXLPZvwg"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_019yht2gZSCCqY4F6BoyVNhs",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/agent-eval-harness.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:53.197Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_011BnBW64NKRZd3VNuK8iQXb",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/skill-overlays.md",
+          "old_string": "- [AI-SDLC Pipeline](ai-sdlc-pipeline.md) -- overlays plug into the pipeline as a context engineering technique",
+          "new_string": "- [AI-SDLC Pipeline](ai-sdlc-pipeline.md) -- overlays plug into the pipeline as a context engineering technique\n- [Prompt Engineering Best Practices](prompt-engineering-best-practices.md) \u2014 overlays are structured prompts; best practices for format, examples, and constraints apply directly"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:55.681Z",
+    "_msg_id": "msg_vrtx_01KFkegEpo4q3cX9hXLPZvwg"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_011BnBW64NKRZd3VNuK8iQXb",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/skill-overlays.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:55.688Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_018qas5NQHN9rFwycq72FoJN",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/evaluator-super-agent.md",
+          "old_string": "- [Skill Overlays](skill-overlays.md) \u2014 context engineering technique relevant to team-specific overlays",
+          "new_string": "- [Skill Overlays](skill-overlays.md) \u2014 context engineering technique relevant to team-specific overlays\n- [Prompt Engineering Best Practices](prompt-engineering-best-practices.md) \u2014 sequential prompting and format-controlled output underpin the 3-phase evaluation pipeline"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:39:56.948Z",
+    "_msg_id": "msg_vrtx_01KFkegEpo4q3cX9hXLPZvwg"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_018qas5NQHN9rFwycq72FoJN",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/evaluator-super-agent.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:39:56.957Z"
+  },
+  {
+    "type": "assistant",
+    "text": "Now update the index and log simultaneously.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:40:00.597Z",
+    "_msg_id": "msg_vrtx_01KW6acCow56539q4guUAzma"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_01Fdj68AceGP1tjvWadw1aVM",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/index.md",
+          "old_string": "## Machine Learning & AI\n\n- [Vector Similarity Search](vector-similarity-search.md) \u2014 ANN algorithms (HNSW, IVF) for finding semantically similar content via embeddings\n- [Vector Databases](vector-databases.md) \u2014 specialized stores for embedding-based nearest-neighbor search\n- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 grounds LLM responses in retrieved documents via vector search",
+          "new_string": "## Machine Learning & AI\n\n- [Prompt Engineering Best Practices](prompt-engineering-best-practices.md) \u2014 format specs, few-shot examples, chain-of-thought, sequential prompts, and constraints\n- [Vector Similarity Search](vector-similarity-search.md) \u2014 ANN algorithms (HNSW, IVF) for finding semantically similar content via embeddings\n- [Vector Databases](vector-databases.md) \u2014 specialized stores for embedding-based nearest-neighbor search\n- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 grounds LLM responses in retrieved documents via vector search"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:40:04.740Z",
+    "_msg_id": "msg_vrtx_01KW6acCow56539q4guUAzma"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01Fdj68AceGP1tjvWadw1aVM",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/index.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:40:04.746Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01MmthBpwgejJGxFpVLvPWdR",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/log.md",
+          "limit": 10
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:40:05.046Z",
+    "_msg_id": "msg_vrtx_01KW6acCow56539q4guUAzma"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01MmthBpwgejJGxFpVLvPWdR",
+    "tool_name": "Read",
+    "content": "1\t# Change Log\n2\t\n3\tA chronological record of all wiki operations.\n4\t\n5\t## 2026-06-30 -- Ingested: Midpoint Check-in with Zack\n6\t- Created: midpoint-checkin-2026-06-30.md -- Halfway internship review: strengths (pioneering work, collaborative curiosity, handling ambiguity), opportunities (bigger picture thinking, report as product), energy management framework, career direction\n7\t- Cross-linked with: evaluator-super-agent.md, prototype-creator.md, ai-sdlc-pipeline.md\n8\t- Category: Meetings\n9\t- Note: Single-mic Gemini transcript, speakers reconstructed from context\n10\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:40:05.049Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_01WipgNsWLuwjj7Jx6LzZnAf",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/log.md",
+          "old_string": "## 2026-06-30 -- Ingested: Midpoint Check-in with Zack",
+          "new_string": "## 2026-07-09 \u2014 Ingested: Prompt Engineering Best Practices\n- Created: prompt-engineering-best-practices.md \u2014 Core techniques: format specs, few-shot examples, chain-of-thought, sequential prompts, explicit constraints\n- Cross-linked with: agent-eval-harness.md, skill-overlays.md, evaluator-super-agent.md\n- Category: Machine Learning & AI\n\n## 2026-06-30 -- Ingested: Midpoint Check-in with Zack"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:40:08.501Z",
+    "_msg_id": "msg_vrtx_01Pn2yyCmALfTyHMoNd5Ln9Y"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01WipgNsWLuwjj7Jx6LzZnAf",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/log.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:40:08.509Z"
+  },
+  {
+    "type": "assistant",
+    "text": "Done. Here's what was created and connected:\n\n**Page created:** `~/second-brain/wiki/prompt-engineering-best-practices.md`\n\n**Cross-linked with 3 existing pages:**\n- `agent-eval-harness.md` \u2014 judge prompts and SKILL.md are prompt engineering artifacts; chain-of-thought and format specs improve scoring reliability\n- `skill-overlays.md` \u2014 overlays are structured prompts with explicit constraints and project-specific examples\n- `evaluator-super-agent.md` \u2014 the 3-phase evaluation pipeline is built on sequential prompting and format-controlled output\n\n**Active project connection:** This directly applies to both **agent-eval-harness** and **evaluator-super-agent** \u2014 the judge prompts that drive your eval scoring are exactly where these techniques (format control, CoT, sequential chaining) pay off most.\n\n**Suggested reading:** [Skill Overlays](~/second-brain/wiki/skill-overlays.md) if you haven't already \u2014 the overlay pattern is applied prompt engineering in practice.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:40:17.201Z",
+    "_msg_id": "msg_vrtx_01UysEX6oSHv6E3aPZcb4gqL"
+  },
+  {
+    "type": "result",
+    "cost_usd": 0.29731319999999994,
+    "num_turns": 17,
+    "timestamp": null
+  }
+]

@@ -1,0 +1,179 @@
+judges:
+  budget_check:
+    mean: 1.0
+    pass_rate: 1.0
+  cross_linking_quality:
+    mean: 1.0
+    pass_rate: 1.0
+  duplicate_handling:
+    mean: 1.0
+    pass_rate: 1.0
+  no_prose_walls:
+    mean: 1.0
+    pass_rate: 1.0
+  overall_quality:
+    mean: 4.2
+    pass_rate: null
+  wiki_page_structure:
+    mean: 1.0
+    pass_rate: 1.0
+per_case:
+  context-retrieval:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.41 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Context mode - cross-link check N/A
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Context mode - prose check N/A
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '5
+
+
+        This is an excellent context retrieval response. It correctly identified the
+        retrieval mode, found both expected direct matches (nielsens-heuristics and
+        evaluator-super-agent), and went beyond by a'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Context mode: wiki-sourced response provided'
+      value: true
+  ingest-duplicate-detection:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.41 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: No specific cross-links expected
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Correctly updated existing page without creating duplicate
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '1
+
+
+        The annotations clearly indicate this is a near-duplicate of the existing
+        `vector-databases.md` page, and the expected behavior is to **update the existing
+        page** rather than create a new one. The '
+      value: 1
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, index/log
+        update'
+      value: true
+  ingest-meeting-notes:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.41 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '4
+
+
+        The output demonstrates a well-structured wiki ingestion workflow. The page
+        slug contains "2026-07-01" as expected. Cross-linking is clearly done with
+        three existing pages, each with meaningful jus'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, index/log
+        update, source tracking'
+      value: true
+  ingest-raw-text:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.41 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: Contains markdown cross-links
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '4
+
+
+        The skill correctly identified the ingestion mode and created a wiki page
+        with the expected slug `prompt-engineering-best-practices`. It created a source
+        file, updated the index, and updated the lo'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Wiki workflow complete: page creation, cross-linking, index/log
+        update, source tracking'
+      value: true
+  ingest-with-crosslinks:
+    budget_check:
+      judge_type: builtin
+      rationale: Cost $1.41 within budget $2.00
+      value: true
+    cross_linking_quality:
+      judge_type: check
+      rationale: 'All expected cross-links found: [''retrieval-augmented-generation.md'']'
+      value: true
+    duplicate_handling:
+      judge_type: check
+      rationale: Not a duplicate test case
+      value: true
+    no_prose_walls:
+      judge_type: check
+      rationale: Content is concise, uses bullet format
+      value: true
+    overall_quality:
+      judge_type: llm
+      rationale: '3
+
+
+        The skill correctly identified the existing `vector-databases` page (matching
+        the expected slug), chose to update rather than duplicate, updated the log,
+        and maintained cross-links to `retrieval-au'
+      value: 5
+    wiki_page_structure:
+      judge_type: check
+      rationale: 'Partial workflow evidence: cross-linking, index/log update'
+      value: true
+run_id: 2026-07-09-sonnet-v1
+run_metrics:
+  cache_hit_rate: 0.906229
+  cost_per_mtok_usd: 0.7717
+  cost_per_turn_usd: 0.032045
+  output_tokens_per_turn: 424.7

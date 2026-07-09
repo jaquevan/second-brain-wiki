@@ -1,0 +1,1727 @@
+[
+  {
+    "type": "system",
+    "subtype": "hook_started",
+    "timestamp": "2026-07-09T15:35:39.025Z"
+  },
+  {
+    "type": "system",
+    "subtype": "hook_response",
+    "timestamp": "2026-07-09T15:35:39.027Z"
+  },
+  {
+    "type": "system",
+    "subtype": "init",
+    "timestamp": "2026-07-09T15:35:39.049Z",
+    "model": "claude-sonnet-4-6"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.413Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.430Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.430Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.435Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.441Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.443Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.448Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.452Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.675Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.676Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.677Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.679Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.679Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.679Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.680Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:42.681Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.070Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.071Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.071Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.071Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.073Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.074Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.075Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.075Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.486Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.489Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.489Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.490Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.491Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:43.494Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:35:43.497Z",
+    "_msg_id": "msg_vrtx_014caVL11qwi6cdDnvutFkth"
+  },
+  {
+    "type": "assistant",
+    "text": "I'll ingest this into your wiki. Let me start by reading the config and scanning existing pages.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:35:43.914Z",
+    "_msg_id": "msg_vrtx_014caVL11qwi6cdDnvutFkth"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01Wfb4ygrDWS6ANmrAVveYYd",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v1/cases/ingest-duplicate-detection/.claude/skills/second-brain-wiki/references/config.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:35:46.033Z",
+    "_msg_id": "msg_vrtx_014caVL11qwi6cdDnvutFkth"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01Wfb4ygrDWS6ANmrAVveYYd",
+    "tool_name": "Read",
+    "content": "1\t# Second Brain Wiki Configuration\n2\t\n3\tThis file configures the skill for Evan's environment. Edit paths and\n4\tprojects as your work evolves.\n5\t\n6\t---\n7\t\n8\t## Paths\n9\t\n10\t| Path | Value | Description |\n11\t|------|-------|-------------|\n12\t| Wiki directory | `~/second-brain/wiki/` | Where wiki pages live |\n13\t| Sources directory | `~/second-brain/sources/` | Raw source files stored here |\n14\t| Inbox directory | `~/Desktop/Second Brain Inbox/` | Drop files here for processing |\n15\t\n16\t---\n17\t\n18\t## Active Projects\n19\t\n20\tThese are your current projects and areas of focus. The skill uses these\n21\tto find connections when ingesting new content.\n22\t\n23\t- **evaluator-super-agent** \u2014 automated prototype quality assessment using persona-driven walkthroughs, 7-dimension rubric scoring, actor/evaluator separation\n24\t- **prototype-creator** \u2014 generates clickable prototypes from RFEs, tiered AC classification, Playwright automation\n25\t- **agent-eval-harness** \u2014 framework for evaluating AI skill quality, eval.yaml configs, judges, scoring pipelines\n26\t- **ai-sdlc-pipeline** \u2014 three-phase pipeline: RFE Creator (WHAT) \u2192 Prototype Creator (SHOW) \u2192 Strat Creator (HOW)\n27\t- **my-cursor-claw** \u2014 personal workspace with 20+ skills, MCP connections, notetaking, automations\n28\t- **decision-kit** \u2014 Decision Driven Development toolkit, /strategize, /decide, /journal\n29\t- **automated-usability-testing** \u2014 simulated usability testing tool, persona YAML files, evaluate-flow protocol\n30\t- **archie** \u2014 UX research agent for the RHOAIUX team\n31\t- **rhoai-prototypes** \u2014 RHOAI prototype collection for evaluation\n32\t\n33\t---\n34\t\n35\t## Calendar Integration\n36\t\n37\t| Setting | Value |\n38\t|---------|-------|\n39\t| Calendar name | `primary` |\n40\t| Auto-ingest meetings | `true` |\n41\t| Minimum meeting duration | `15 min` |\n42\t| Require notes/transcript | `true` |\n43\t| Skip recurring without notes | `true` |\n44\t\n45\tEvents that qualify for auto-ingestion:\n46\t- Have attached meeting notes or a description with substance (not just \"Weekly sync\")\n47\t- Have a linked Google Doc (agenda, transcript, action items)\n48\t- Duration is 15+ minutes\n49\t- Are not recurring meetings that had no notes added\n50\t\n51\t---\n52\t\n53\t## MCP Integrations\n54\t\n55\t| Integration | MCP Server | Used for |\n56\t|-------------|-----------|----------|\n57\t| Google Docs | `user-google-workspace` | Extracting doc content |\n58\t| Google Calendar | `user-google-workspace` | Meeting ingestion |\n59\t| Slack | `project-0-my-cursor-claw-slack` | Channel message ingestion |\n60\t\n61\t---\n62\t\n63\t## Cross-Link Priority\n64\t\n65\tWhen multiple connections exist, prioritize these categories (from the\n66\twiki index):\n67\t\n68\t1. **Red Hat AI-SDLC** \u2014 pipeline components, RFE/prototype/strat flow\n69\t2. **Evaluation & Quality** \u2014 rubrics, heuristics, eval harness\n70\t3. **Tools & Skills** \u2014 decision kit, cursor claw, skill overlays\n71\t4. **Meetings** \u2014 meeting notes with action items and decisions\n72\t5. **Standups** \u2014 sprint progress and blockers\n73\t6. **Session Logs** \u2014 what was built and shipped\n74\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:35:46.045Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_019DYxhfizxcA3kU3Hw4HKjC",
+        "input": {
+          "file_path": "/private/var/folders/kd/9pjy5r0x63g010533l28y0cc0000gn/T/agent-eval/2026-07-09-sonnet-v1/cases/ingest-duplicate-detection/.claude/skills/second-brain-wiki/references/wiki-page-template.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:35:53.470Z",
+    "_msg_id": "msg_vrtx_017qNZondFnGhUwyHtFtvTfr"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_019DYxhfizxcA3kU3Hw4HKjC",
+    "tool_name": "Read",
+    "content": "1\t# Wiki Page Template\n2\t\n3\tUse this template when creating new wiki pages. Copy the structure,\n4\tfill in the bracketed fields.\n5\t\n6\t---\n7\t\n8\t## Template\n9\t\n10\t```markdown\n11\t# <Page Title>\n12\t\n13\t<One-sentence summary of what this page covers.>\n14\t\n15\t## Key Points\n16\t\n17\t- <Bullet point 1: a concrete fact, concept, or takeaway>\n18\t- <Bullet point 2>\n19\t- <Bullet point 3>\n20\t- <Additional bullets as needed, max 10>\n21\t\n22\t## Related\n23\t\n24\t- [<Related Page Title>](<related-slug>.md) \u2014 <one-line reason for connection>\n25\t- [<Another Related Page>](<slug>.md) \u2014 <connection reason>\n26\t\n27\t## Sources\n28\t\n29\t- <path/to/source/file or URL where this came from>\n30\t- Ingested: <YYYY-MM-DD>\n31\t```\n32\t\n33\t---\n34\t\n35\t## Good Example\n36\t\n37\t```markdown\n38\t# Retrieval Augmented Generation\n39\t\n40\tTechnique that grounds LLM responses in retrieved documents rather than\n41\trelying solely on training data.\n42\t\n43\t## Key Points\n44\t\n45\t- Combines a retriever (vector search) with a generator (LLM)\n46\t- Reduces hallucination by providing source documents as context\n47\t- Trade-off: retrieval quality limits generation quality\n48\t- Common stack: embeddings \u2192 vector DB \u2192 reranker \u2192 LLM prompt\n49\t- Works best when source corpus is well-chunked and up-to-date\n50\t\n51\t## Related\n52\t\n53\t- [Vector Databases](vector-databases.md) \u2014 the retrieval layer in RAG pipelines\n54\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 uses embedding similarity for judge calibration\n55\t\n56\t## Sources\n57\t\n58\t- ~/second-brain/sources/what-is-rag.md\n59\t- Ingested: 2026-06-10\n60\t```\n61\t\n62\t---\n63\t\n64\t## Bad Example\n65\t\n66\t```markdown\n67\t# RAG\n68\t\n69\tRetrieval Augmented Generation (RAG) is a technique in artificial intelligence\n70\tthat combines information retrieval with text generation. It was first proposed\n71\tby Lewis et al. in 2020. The basic idea is that instead of relying solely on\n72\twhat a language model learned during training, you can augment it with relevant\n73\tdocuments retrieved at inference time.\n74\t\n75\tThis approach has several advantages. First, it reduces hallucination because\n76\tthe model can reference actual documents. Second, it allows the model to access\n77\tup-to-date information that wasn't in its training data. Third, it provides\n78\ttransparency because you can trace responses back to source documents.\n79\t\n80\tThere are several implementations of RAG available today...\n81\t```\n82\t\n83\t**Why it's bad:**\n84\t- Reads like a Wikipedia article, not a wiki node\n85\t- No bullet summaries (walls of prose)\n86\t- No Related section (isolated page, no connections)\n87\t- No Sources section (where did this come from?)\n88\t- Title is an acronym without expansion\n89\t- Contains filler (\"There are several...\" \"This approach has...\")\n90\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:35:53.477Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_01FjTxxFbdvEVGyUauPnj57U",
+        "input": {
+          "command": "ls ~/second-brain/wiki/ 2>/dev/null || echo \"EMPTY_OR_MISSING\"",
+          "description": "List existing wiki pages"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:35:53.742Z",
+    "_msg_id": "msg_vrtx_017qNZondFnGhUwyHtFtvTfr"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01FjTxxFbdvEVGyUauPnj57U",
+    "tool_name": "Bash",
+    "content": "agent-eval-harness.md\nai-first-sync-2026-06-25.md\nai-sdlc-pipeline.md\nandy-evan-2026-06-22.md\nandy-evan-2026-06-29.md\nandy-evan-eval-review-2026-06-16.md\nansible-ai-helpers-strategy-2026-06-17.md\ncursor-work-2026-06-16.md\ndecision-kit.md\nevaluator-super-agent.md\nindex.md\nlog.md\nmidpoint-checkin-2026-06-30.md\nmy-cursor-claw.md\nnielsens-heuristics-jagged-edge.md\noutcome-tiger-team.md\nprototype-creator-demo-may14.md\nprototype-creator.md\nredhat-ai-first-lessons.md\nretrieval-augmented-generation.md\nrfe-creator.md\nrh-ai-first-ux-2026-06-18.md\nrh-ai-first-ux-2026-06-25.md\nsession-log-2026-06-15.md\nsession-log-2026-06-16.md\nskill-overlays.md\nstandup-2026-06-22.md\nstandup-2026-06-29.md\nux-quality-rubric.md\nvector-databases.md\nwg-uxd-efficiency-2026-06-29.md\nzack-evan-2026-06-24.md",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:35:53.973Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.451Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.773Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.774Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.774Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.776Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.780Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.799Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.800Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:55.800Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.137Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.143Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.149Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.150Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.152Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.152Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.154Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.158Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.535Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.536Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.536Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.543Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.544Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.551Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.557Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:56.562Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.019Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.019Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.019Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.019Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.020Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.020Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.020Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.020Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.316Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.317Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.320Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.327Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.330Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.332Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.332Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.333Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.741Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:35:57.749Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:35:57.753Z",
+    "_msg_id": "msg_vrtx_019LJJzVSPAZbDYWNgD8aDMa"
+  },
+  {
+    "type": "assistant",
+    "text": "I can see there's no existing vector-similarity-search page, but there are related pages (`vector-databases.md`, `retrieval-augmented-generation.md`). Let me read those plus the index and log.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:36:00.828Z",
+    "_msg_id": "msg_vrtx_019LJJzVSPAZbDYWNgD8aDMa"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_01AguaB7sk9rQnxSzSJ61zDx",
+        "input": {
+          "command": "head -10 ~/second-brain/wiki/vector-databases.md && echo \"---\" && head -10 ~/second-brain/wiki/retrieval-augmented-generation.md && echo \"---\" && head -10 ~/second-brain/wiki/agent-eval-harness.md",
+          "description": "Read first 10 lines of related wiki pages"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:01.382Z",
+    "_msg_id": "msg_vrtx_019LJJzVSPAZbDYWNgD8aDMa"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01AguaB7sk9rQnxSzSJ61zDx",
+    "tool_name": "Bash",
+    "content": "# Vector Databases\n\nA vector database stores data as high-dimensional vectors (embeddings) and enables fast similarity search. They are a key component in [RAG](retrieval-augmented-generation.md) pipelines, recommendation systems, and semantic search.\n\n## Popular Options\n\n- **ChromaDB** \u2014 open-source, easy to set up, Python-native\n- **Pinecone** \u2014 managed service, scales automatically\n- **Weaviate** \u2014 open-source, supports hybrid search (vector + keyword)\n- **Qdrant** \u2014 open-source, Rust-based, high performance\n---\n# Retrieval-Augmented Generation\n\nRetrieval-Augmented Generation (RAG) is a technique that enhances LLM responses by retrieving relevant documents from an external knowledge base before generating an answer. Instead of relying solely on the model's training data, RAG grounds responses in real, up-to-date documents.\n\n## How It Works\n\n1. A user asks a question\n2. The system searches a document store (e.g. a [vector database](vector-databases.md), keyword index) for relevant chunks\n3. Those chunks are injected into the LLM prompt as context\n4. The LLM generates an answer grounded in the retrieved documents\n---\n# Agent Eval Harness\n\nA framework for evaluating AI agent skill quality through automated testing, judge scoring, and iterative optimization.\n\n## How It Works\n\n1. **eval.yaml** \u2014 defines execution mode, dataset schema, output descriptions, judges, models, and thresholds\n2. **Dataset** \u2014 test cases with realistic inputs for the skill\n3. **Judges** \u2014 automated scorers that rate skill outputs against criteria\n4. **Run** \u2014 executes the skill against test cases, scores with judges, reports results",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:01.475Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01LDaEXdnpsHfuEmzx6SKAgk",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/index.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:01.592Z",
+    "_msg_id": "msg_vrtx_019LJJzVSPAZbDYWNgD8aDMa"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01LDaEXdnpsHfuEmzx6SKAgk",
+    "tool_name": "Read",
+    "content": "1\t# Wiki Index\n2\t\n3\tA catalog of all wiki pages, organized by category.\n4\t\n5\t## Red Hat AI-SDLC\n6\t\n7\t- [Red Hat AI-First Lessons](redhat-ai-first-lessons.md) \u2014 Jeremy Eder's presentation on agentic SDLC, issue-to-PR bots, eval infrastructure, AgentReady, and culture shifts\n8\t- [Outcome Tiger Team](outcome-tiger-team.md) \u2014 proposal to formalize outcomes as the upstream step feeding the entire pipeline\n9\t- [AI-SDLC Pipeline](ai-sdlc-pipeline.md) \u2014 the three-phase pipeline (WHAT \u2192 SHOW \u2192 HOW)\n10\t- [RFE Creator](rfe-creator.md) \u2014 Phase 1: creates and assesses RFEs in Jira\n11\t- [Prototype Creator](prototype-creator.md) \u2014 Phase 2: generates clickable prototypes from RFEs\n12\t- [Prototype Creator Demo \u2014 May 14](prototype-creator-demo-may14.md) \u2014 full walkthrough of automated + human-in-the-loop workflows (Andy, Beau, Dash)\n13\t- [UX Quality Rubric](ux-quality-rubric.md) \u2014 4-dimension scoring system for prototypes\n14\t\n15\t## Evaluation & Quality\n16\t\n17\t- [Evaluator Super Agent](evaluator-super-agent.md) \u2014 automated prototype quality assessment (in progress)\n18\t- [Agent Eval Harness](agent-eval-harness.md) \u2014 framework for evaluating AI skill quality\n19\t- [Nielsen's Heuristics & The Jagged Edge](nielsens-heuristics-jagged-edge.md) \u2014 AI model comparison using usability heuristics\n20\t\n21\t## Tools & Skills\n22\t\n23\t- [Decision Kit](decision-kit.md) \u2014 Decision Driven Development toolkit\n24\t- [My Cursor Claw](my-cursor-claw.md) \u2014 personal workspace with 20+ skills, 5 MCP connections, and automated daily review\n25\t- [Skill Overlays](skill-overlays.md) \u2014 LLM-generated project-specific context files that improve agent accuracy\n26\t\n27\t## Daily Work Logs\n28\t\n29\t- [Cursor Work \u2014 2026-06-16](cursor-work-2026-06-16.md) \u2014 trend-scan, critique, humanize-text, doc-sync, superpowers skills; GitHub README; second brain smart check-ins\n30\t\n31\t## Meetings\n32\t\n33\t- [Ansible AI Helpers Strategy \u2014 2026-06-17](ansible-ai-helpers-strategy-2026-06-17.md) \u2014 heuristic eval pilot, centralized repo distribution via MRs, June 30 Ansible leadership pitch\n34\t- [RH AI-First UX \u2014 2026-06-18](rh-ai-first-ux-2026-06-18.md) \u2014 Fable AI impressions, GitLab pages fix, prototype-evaluate demo, Outcome Creator project plan, Jira migration\n35\t- [Andy/Evan Eval Review \u2014 2026-06-16](andy-evan-eval-review-2026-06-16.md) \u2014 outcomes grounding, super evaluator architecture, overlay approach confirmed\n36\t- [Andy/Evan Meeting \u2014 2026-06-22](andy-evan-2026-06-22.md) \u2014 eval scores improved (11\u219219), flagging system, Prototype Creator integration cost strategy\n37\t- [Zack/Evan Meeting \u2014 2026-06-24](zack-evan-2026-06-24.md) \u2014 Jira standardization, story points, skill architecture (context window limits)\n38\t- [AI-First Sync \u2014 2026-06-25](ai-first-sync-2026-06-25.md) \u2014 Evan's prototype evaluator presentation, 3.6 branch, readiness check discussion\n39\t- [RH AI-First UX \u2014 2026-06-25](rh-ai-first-ux-2026-06-25.md) \u2014 Outcome Creator JTBD integration, testing fragmentation, unified testing proposal\n40\t- [WG: UXD Efficiency \u2014 2026-06-29](wg-uxd-efficiency-2026-06-29.md) \u2014 AI helpers repo strategy, Archie rebranding, productivity skills repo, AI cost management\n41\t- [Andy/Evan Meeting \u2014 2026-06-29](andy-evan-2026-06-29.md) \u2014 evaluator progress, report UX, UXD PC7 cluster, sub-skill structure, Leaderboard of Pain\n42\t- [Midpoint Check-in \u2014 2026-06-30](midpoint-checkin-2026-06-30.md) \u2014 Zack's strengths/opportunities feedback, energy management framework, career direction, report-as-product challenge\n43\t\n44\t## Standups\n45\t\n46\t- [Standup \u2014 2026-06-22](standup-2026-06-22.md) \u2014 sprint capacity adjustments, customer engagement strategy, Archie CLI update\n47\t- [Standup \u2014 2026-06-29](standup-2026-06-29.md) \u2014 usability testing RFC approved, UX debt prioritization for 3.5, research tooling updates\n48\t\n49\t## Session Logs\n50\t\n51\t- [Session Log \u2014 2026-06-16](session-log-2026-06-16.md) \u2014 shipped second brain smart check-ins (importance, carry-forward, auto-resolve); created critique, humanize-text, doc-sync, superpowers, trend-scan skills; GitHub README redesign\n52\t- [Session Log \u2014 2026-06-15](session-log-2026-06-15.md) \u2014 built work-context, meeting-prep, standup-writer, session-log skills; sprint-manager skill; prototype-evaluate Slack response; progress doc update\n53\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:01.595Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:02.854Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.165Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.166Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.167Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.169Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.170Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.170Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.173Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.173Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.602Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.604Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.622Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.622Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.622Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.622Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.622Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:03.622Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.058Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.062Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.065Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.068Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.070Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.073Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.073Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.076Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.407Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.407Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.407Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.409Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.409Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.410Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.410Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.412Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:04.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.194Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.195Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.195Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.197Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.197Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.199Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.200Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.200Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.613Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.614Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.614Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.614Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.614Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.614Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.614Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:05.614Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.055Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.056Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.056Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.056Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.058Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.058Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.064Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.064Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.479Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.480Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.482Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:06.484Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.313Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.349Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.378Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.408Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.425Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.449Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.555Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.555Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.555Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.555Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.576Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.599Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.624Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.655Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.678Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.705Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.731Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.756Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.780Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.806Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.833Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.856Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.884Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:08.923Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:36:08.924Z",
+    "_msg_id": "msg_vrtx_01Ky8wha2pqwGvBGBr3XDjVb"
+  },
+  {
+    "type": "assistant",
+    "text": "Now let me read the full related pages to check their Related sections and read the log tail.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:36:08.929Z",
+    "_msg_id": "msg_vrtx_01Ky8wha2pqwGvBGBr3XDjVb"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01C6feAtq7FDCou5qTSYHRDv",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/vector-databases.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:08.966Z",
+    "_msg_id": "msg_vrtx_01Ky8wha2pqwGvBGBr3XDjVb"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01C6feAtq7FDCou5qTSYHRDv",
+    "tool_name": "Read",
+    "content": "1\t# Vector Databases\n2\t\n3\tA vector database stores data as high-dimensional vectors (embeddings) and enables fast similarity search. They are a key component in [RAG](retrieval-augmented-generation.md) pipelines, recommendation systems, and semantic search.\n4\t\n5\t## Popular Options\n6\t\n7\t- **ChromaDB** \u2014 open-source, easy to set up, Python-native\n8\t- **Pinecone** \u2014 managed service, scales automatically\n9\t- **Weaviate** \u2014 open-source, supports hybrid search (vector + keyword)\n10\t- **Qdrant** \u2014 open-source, Rust-based, high performance\n11\t\n12\t## How They Work\n13\t\n14\t1. Documents are converted to embeddings using a model\n15\t2. Embeddings are indexed for fast nearest-neighbor search\n16\t3. At query time, the query is embedded and compared to stored vectors\n17\t4. The most similar vectors (and their associated documents) are returned\n18\t\n19\t## Use Cases\n20\t\n21\t- [RAG systems](retrieval-augmented-generation.md) for grounding LLM responses\n22\t- Semantic search across large document collections\n23\t- Recommendation engines\n24\t- Image and audio similarity search\n25\t\n26\t## Sources\n27\t\n28\t- sources/vector-databases.md\n29\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:08.970Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Read",
+        "id": "toolu_vrtx_01K1va2spCkdCt3zQC7Qjg48",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/retrieval-augmented-generation.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:09.428Z",
+    "_msg_id": "msg_vrtx_01Ky8wha2pqwGvBGBr3XDjVb"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01K1va2spCkdCt3zQC7Qjg48",
+    "tool_name": "Read",
+    "content": "1\t# Retrieval-Augmented Generation\n2\t\n3\tRetrieval-Augmented Generation (RAG) is a technique that enhances LLM responses by retrieving relevant documents from an external knowledge base before generating an answer. Instead of relying solely on the model's training data, RAG grounds responses in real, up-to-date documents.\n4\t\n5\t## How It Works\n6\t\n7\t1. A user asks a question\n8\t2. The system searches a document store (e.g. a [vector database](vector-databases.md), keyword index) for relevant chunks\n9\t3. Those chunks are injected into the LLM prompt as context\n10\t4. The LLM generates an answer grounded in the retrieved documents\n11\t\n12\t## Benefits\n13\t\n14\t- **Reduces hallucination** \u2014 answers are grounded in real documents\n15\t- **Updatable without retraining** \u2014 swap or add documents anytime\n16\t- **Works with proprietary data** \u2014 keeps domain-specific knowledge accessible\n17\t\n18\t## Limitations\n19\t\n20\t- Quality depends heavily on the retrieval step \u2014 bad retrieval means bad answers\n21\t- Large documents may require chunking strategies to fit context windows\n22\t- Embedding models add latency and cost to the pipeline\n23\t\n24\t## Common Tools\n25\t\n26\t- **Orchestration:** LangChain, LlamaIndex\n27\t- **Vector storage:** ChromaDB, Pinecone, Weaviate (see [Vector Databases](vector-databases.md))\n28\t- **Embeddings:** OpenAI, Cohere, or open-source models\n29\t\n30\t## Sources\n31\t\n32\t- sources/what-is-rag.md\n33\t",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:09.431Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_017mom8NjEUBn7HkwHJ6heyp",
+        "input": {
+          "command": "tail -20 ~/second-brain/wiki/log.md",
+          "description": "Read end of log file"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:09.957Z",
+    "_msg_id": "msg_vrtx_01Ky8wha2pqwGvBGBr3XDjVb"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_017mom8NjEUBn7HkwHJ6heyp",
+    "tool_name": "Bash",
+    "content": "**Cross-linked with:** ai-sdlc-pipeline.md, agent-eval-harness.md, evaluator-super-agent.md, prototype-creator.md, rfe-creator.md\n\n**Category:** Red Hat AI-SDLC\n\n## 2026-06-16 \u2014 Ingested: Andy/Evan Evaluation Review Meeting\n\n- Created: andy-evan-eval-review-2026-06-16.md \u2014 Outcomes grounding, super evaluator architecture, overlay approach, hint mechanism, screenshot consolidation\n- Cross-linked with: evaluator-super-agent.md, prototype-creator.md, outcome-tiger-team.md, ux-quality-rubric.md, ai-sdlc-pipeline.md\n- Category: Meetings\n- Also created: Obsidian note (01-Meetings/2026-06/) + HTML report (Notes Export/)\n\n## 2026-06-16 \u2014 Ingested: Cursor Work Summary (June 16)\n\n**Source:** ~/Desktop/Second Brain Inbox/2026-06-16-cursor-work-summary.md \u2014 Daily summary of 4 agent sessions.\n\n**Created:** cursor-work-2026-06-16.md \u2014 Record of trend-scan, batch skill creation, GitHub README, and second brain smart check-ins work.\n\n**Cross-linked with:** my-cursor-claw.md, decision-kit.md, agent-eval-harness.md, session-log-2026-06-16.md\n\n**Category:** Daily Work Logs",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:10.001Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.388Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.772Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.772Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.772Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.773Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.774Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.776Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.778Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:11.781Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.224Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.225Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.547Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.549Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.549Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.551Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.552Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.554Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.555Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.557Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.962Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.962Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.963Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.964Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.964Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.965Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.968Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:12.968Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.368Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.369Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.370Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.370Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.376Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.376Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.376Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.378Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.800Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.805Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.815Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.821Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.863Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:13.871Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.214Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.219Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.328Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.332Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.336Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.352Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.464Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.465Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.471Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.497Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.504Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.513Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.532Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.558Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.586Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.603Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.635Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.661Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.682Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.693Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.718Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.747Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.767Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.793Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.826Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:17.845Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.233Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.331Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.331Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.331Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.340Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.377Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.406Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.430Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.450Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.463Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.505Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.516Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.648Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.659Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.670Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.678Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.690Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.719Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.720Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.756Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.855Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.855Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.855Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:25.855Z"
+  },
+  {
+    "type": "system",
+    "subtype": "thinking_tokens",
+    "timestamp": "2026-07-09T15:36:27.797Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [],
+    "timestamp": "2026-07-09T15:36:27.798Z",
+    "_msg_id": "msg_vrtx_01BDEuEuDivgpXgqtMgci1cG"
+  },
+  {
+    "type": "assistant",
+    "text": "Now I have everything I need. I'll create the new page, add back-links to related pages, and update the index and log \u2014 all in parallel.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:36:28.331Z",
+    "_msg_id": "msg_vrtx_01BDEuEuDivgpXgqtMgci1cG"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Write",
+        "id": "toolu_vrtx_015PPKecT6EkZ6QCh4jaPacq",
+        "input": {
+          "file_path": "/Users/ejaquez/second-brain/wiki/vector-similarity-search.md",
+          "content": "# Vector Similarity Search\n\nCore technique for finding semantically similar content using vector embeddings \u2014 the engine behind modern search, recommendations, and deduplication.\n\n## Key Points\n\n- Text is transformed into dense vector embeddings via transformer models (e.g. OpenAI, Cohere, sentence-transformers)\n- Similarity measured with cosine similarity (angle between vectors) or dot product (magnitude-aware)\n- Approximate Nearest Neighbor (ANN) algorithms trade small accuracy losses for large speed gains\n  - **HNSW** (Hierarchical Navigable Small Worlds) \u2014 graph-based, best recall/speed trade-off\n  - **IVF** (Inverted File Index) \u2014 cluster-based, efficient at massive scale\n- Exact search is O(n) per query; ANN brings this closer to O(log n)\n- Powers: RAG retrieval, recommendation engines, semantic search, duplicate detection\n\n## Related\n\n- [Vector Databases](vector-databases.md) \u2014 specialized stores that implement ANN indexing at scale\n- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 uses vector similarity as its retrieval step\n- [Agent Eval Harness](agent-eval-harness.md) \u2014 similarity search is applicable for deduplicating test cases and detecting redundant eval inputs\n\n## Sources\n\n- Ingested: 2026-07-09\n"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:34.247Z",
+    "_msg_id": "msg_vrtx_01BDEuEuDivgpXgqtMgci1cG"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_015PPKecT6EkZ6QCh4jaPacq",
+    "tool_name": "Write",
+    "content": "File created successfully at: /Users/ejaquez/second-brain/wiki/vector-similarity-search.md (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:34.259Z"
+  },
+  {
+    "type": "assistant",
+    "text": "Now add back-links to the related pages and update the index and log.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:36:35.978Z",
+    "_msg_id": "msg_vrtx_01XexhrMgLJPiBN8huVxxQyc"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_01Pj9NmENumF4KobqUDg84iz",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/vector-databases.md",
+          "old_string": "## Sources\n\n- sources/vector-databases.md",
+          "new_string": "## Related\n\n- [Vector Similarity Search](vector-similarity-search.md) \u2014 the algorithms (HNSW, IVF) that power the nearest-neighbor queries vector DBs run\n- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 primary consumer of vector DB retrieval\n\n## Sources\n\n- sources/vector-databases.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:38.605Z",
+    "_msg_id": "msg_vrtx_01XexhrMgLJPiBN8huVxxQyc"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01Pj9NmENumF4KobqUDg84iz",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/vector-databases.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:38.613Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_01CppD91N4z8az3hpAhcJBrz",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/retrieval-augmented-generation.md",
+          "old_string": "## Sources\n\n- sources/what-is-rag.md",
+          "new_string": "## Related\n\n- [Vector Similarity Search](vector-similarity-search.md) \u2014 the mechanism behind the retrieval step\n- [Vector Databases](vector-databases.md) \u2014 the storage layer that indexes embeddings for fast retrieval\n\n## Sources\n\n- sources/what-is-rag.md"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:40.013Z",
+    "_msg_id": "msg_vrtx_01XexhrMgLJPiBN8huVxxQyc"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01CppD91N4z8az3hpAhcJBrz",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/retrieval-augmented-generation.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:40.019Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Edit",
+        "id": "toolu_vrtx_01GJ3YrUMtug4taUuKUiKvUf",
+        "input": {
+          "replace_all": false,
+          "file_path": "/Users/ejaquez/second-brain/wiki/index.md",
+          "old_string": "## Evaluation & Quality",
+          "new_string": "## Machine Learning & AI\n\n- [Vector Similarity Search](vector-similarity-search.md) \u2014 ANN algorithms (HNSW, IVF) for finding semantically similar content via embeddings\n- [Vector Databases](vector-databases.md) \u2014 specialized stores for embedding-based nearest-neighbor search\n- [Retrieval-Augmented Generation](retrieval-augmented-generation.md) \u2014 grounds LLM responses in retrieved documents via vector search\n\n## Evaluation & Quality"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:41.786Z",
+    "_msg_id": "msg_vrtx_01XexhrMgLJPiBN8huVxxQyc"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01GJ3YrUMtug4taUuKUiKvUf",
+    "tool_name": "Edit",
+    "content": "The file /Users/ejaquez/second-brain/wiki/index.md has been updated successfully. (file state is current in your context \u2014 no need to Read it back)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:41.793Z"
+  },
+  {
+    "type": "assistant",
+    "text": "",
+    "tools": [
+      {
+        "name": "Bash",
+        "id": "toolu_vrtx_01CSGnM4mF84wezztzGCUo39",
+        "input": {
+          "command": "cat >> ~/second-brain/wiki/log.md << 'EOF'\n\n## 2026-07-09 \u2014 Ingested: Vector Similarity Search\n\n- Created: vector-similarity-search.md \u2014 ANN algorithms (HNSW, IVF) for embedding-based semantic search; covers cosine similarity, dot product, speed/accuracy trade-offs\n- Cross-linked with: vector-databases.md, retrieval-augmented-generation.md, agent-eval-harness.md\n- Category: Machine Learning & AI (new category created; also catalogued vector-databases.md and retrieval-augmented-generation.md there)\nEOF",
+          "description": "Append log entry"
+        }
+      }
+    ],
+    "timestamp": "2026-07-09T15:36:47.645Z",
+    "_msg_id": "msg_vrtx_016kNEUG1KyC3KgwKxUMtZtu"
+  },
+  {
+    "type": "tool_result",
+    "tool_use_id": "toolu_vrtx_01CSGnM4mF84wezztzGCUo39",
+    "tool_name": "Bash",
+    "content": "(Bash completed with no output)",
+    "is_error": false,
+    "timestamp": "2026-07-09T15:36:47.690Z"
+  },
+  {
+    "type": "assistant",
+    "text": "Done. Here's what was created and connected:\n\n**Created:** `~/second-brain/wiki/vector-similarity-search.md`\n- Covers embeddings, cosine similarity vs dot product, HNSW and IVF algorithms, and use cases\n\n**Back-linked:**\n- `vector-databases.md` \u2014 added Related section pointing to the new page (HNSW/IVF are how vector DBs do their queries)\n- `retrieval-augmented-generation.md` \u2014 added Related section linking both back to the new page and to vector-databases.md\n\n**Index updated:** Created a new **Machine Learning & AI** category and catalogued all three pages there \u2014 `vector-databases.md` and `retrieval-augmented-generation.md` were previously uncategorized.\n\n**Connects to active work:** The agent-eval-harness project \u2014 vector similarity search is directly applicable to deduplicating test cases and detecting redundant eval inputs, which is relevant to the eval harness work.",
+    "tools": [],
+    "timestamp": "2026-07-09T15:36:55.874Z",
+    "_msg_id": "msg_vrtx_01SJBZnUSAwZ8ZgpvCx2FFud"
+  },
+  {
+    "type": "result",
+    "cost_usd": 0.29649285000000003,
+    "num_turns": 14,
+    "timestamp": null
+  }
+]

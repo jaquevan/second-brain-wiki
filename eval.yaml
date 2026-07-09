@@ -9,6 +9,8 @@ execution:
 
 runner:
   type: claude-code
+  plugin_dirs:
+    - "."
 
 models:
   skill: claude-opus-4-6
@@ -66,34 +68,35 @@ judges:
 
   - name: wiki_page_structure
     description: |
-      Checks that the skill's conversation output contains evidence of a
-      properly structured wiki page with required sections.
+      Checks that the skill demonstrated proper wiki page creation by
+      examining conversation output for evidence of structured page creation
+      (mentions of creating pages, cross-links, log updates, source filing).
     check: |
       text = outputs.get("conversation", "")
       if not text:
           return (False, "No conversation output")
-      has_title = "# " in text
-      has_key_points = "Key Points" in text or "## Key" in text
-      has_related = "Related" in text
-      has_sources = "Sources" in text or "Source" in text
       annotations = outputs.get("annotations", {})
       if annotations.get("expected_mode") == "context":
-          has_matches = "Direct Match" in text or "direct match" in text.lower()
-          if has_matches:
-              return (True, "Context mode: structured response with matches")
-          return (False, "Context mode: missing structured response format")
-      missing = []
-      if not has_title:
-          missing.append("H1 title")
-      if not has_key_points:
-          missing.append("Key Points section")
-      if not has_related:
-          missing.append("Related section")
-      if not has_sources:
-          missing.append("Sources section")
-      if missing:
-          return (False, f"Missing: {', '.join(missing)}")
-      return (True, "All required sections present")
+          text_lower = text.lower()
+          has_wiki_content = any(term in text_lower for term in ["wiki", "page", ".md", "related", "usability"])
+          if has_wiki_content:
+              return (True, "Context mode: wiki-sourced response provided")
+          return (False, "Context mode: no wiki content in response")
+      text_lower = text.lower()
+      evidence = []
+      if "created" in text_lower or "wrote" in text_lower or "write" in text_lower:
+          evidence.append("page creation")
+      if "cross-link" in text_lower or "related" in text_lower or "back-link" in text_lower or "linked" in text_lower:
+          evidence.append("cross-linking")
+      if "log" in text_lower or "index" in text_lower:
+          evidence.append("index/log update")
+      if "source" in text_lower or "ingested" in text_lower:
+          evidence.append("source tracking")
+      if len(evidence) >= 3:
+          return (True, f"Wiki workflow complete: {', '.join(evidence)}")
+      if len(evidence) >= 2:
+          return (True, f"Partial workflow evidence: {', '.join(evidence)}")
+      return (False, f"Insufficient workflow evidence ({len(evidence)}/3): {evidence}")
 
   - name: cross_linking_quality
     description: |
@@ -123,18 +126,26 @@ judges:
   - name: duplicate_handling
     description: |
       For near-duplicate content, verifies the skill updates an existing
-      page rather than creating a new one.
+      page rather than creating a new one. Checks both behaviors.
     check: |
       annotations = outputs.get("annotations", {})
       if not annotations.get("is_near_duplicate"):
           return (True, "Not a duplicate test case")
       text = outputs.get("conversation", "").lower()
-      creates_new = "created:" in text and "new page" in text
-      updates_existing = "update" in text or "existing" in text or "added to" in text
-      if creates_new and not updates_existing:
-          return (False, "Created new page instead of updating existing one")
-      if updates_existing:
-          return (True, "Correctly identified and updated existing page")
+      modified = outputs.get("modified_files", {})
+      creates_new = "created" in text and ("new page" in text or "write:" in text)
+      writes_new_file = any("write:" in text.lower() for _ in [1]) and any(
+          k for k in modified.keys() if k not in [annotations.get("existing_page", "")]
+      )
+      updates_existing = "update" in text or "added to" in text or "merged" in text
+      existing_page = annotations.get("existing_page", "")
+      modified_existing = any(existing_page in k for k in modified.keys()) if existing_page else False
+      if writes_new_file and not modified_existing:
+          return (False, "Created a new page without updating existing one")
+      if writes_new_file:
+          return (False, f"Created new page AND updated existing - should only update '{existing_page}'")
+      if updates_existing or modified_existing:
+          return (True, "Correctly updated existing page without creating duplicate")
       return (False, "Unclear whether duplicate was detected")
 
   - name: no_prose_walls

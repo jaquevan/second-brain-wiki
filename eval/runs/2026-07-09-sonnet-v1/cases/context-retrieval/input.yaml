@@ -1,0 +1,28 @@
+prompt: |
+  What do I know about usability testing?
+wiki_state:
+  - title: "Nielsen's Heuristics"
+    slug: "nielsens-heuristics.md"
+    content: |
+      # Nielsen's Heuristics
+      10 usability heuristics for user interface design by Jakob Nielsen.
+      ## Key Points
+      - Visibility of system status
+      - Match between system and real world
+      - User control and freedom
+      - Consistency and standards
+      - Error prevention
+      ## Related
+      - [Evaluator Super Agent](evaluator-super-agent.md)
+  - title: "Evaluator Super Agent"
+    slug: "evaluator-super-agent.md"
+    content: |
+      # Evaluator Super Agent
+      Orchestrates multi-persona usability evaluation of prototypes.
+      ## Key Points
+      - Actor/evaluator phase separation
+      - 7-dimension scoring rubric
+      - Persona-driven walkthroughs
+      ## Related
+      - [Nielsen's Heuristics](nielsens-heuristics.md)
+      - [Prototype Creator](prototype-creator.md)
